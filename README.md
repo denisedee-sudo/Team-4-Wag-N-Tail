@@ -1,7 +1,6 @@
 # Team-4-Wag-N-Tail
 ***
-Info to help you setup your local repo:
-HTTPS  - https://github.com/denisedee-sudo/Team-4-Wag-N-Tail.git
+Info to help you setup your local repo: <br> HTTPS  - https://github.com/denisedee-sudo/Team-4-Wag-N-Tail.git
 ***
 
 + echo "# Team-4-Wag-N-Tail" >> README.md
