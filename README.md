@@ -5,8 +5,5 @@ Info to help you setup your local repo: <br> HTTPS  - https://github.com/denised
 
 + echo "# Team-4-Wag-N-Tail" >> README.md
 + git init
-+ git add README.md
-+ git commit -m "first commit"
-+ git branch -M main
 + git remote add origin https://github.com/denisedee-sudo/Team-4-Wag-N-Tail.git
-+ git push -u origin main
++ git pull -u origin main
