@@ -203,6 +203,24 @@ This marks the end of the custom btn class
 
 /* This marks the end of the custom text class */
 
+/* The following is a template for custom text class 
+.link-dark {
+  color: #212529 !important;
+}
+.link-dark:hover, .link-dark:focus {
+  color: #1a1e21 !important;
+}
+*/
+/* This marks the start of the custom link class */
+
+.link-dark {
+  color: #212529 !important;
+}
+.link-dark:hover, .link-dark:focus {
+  color: #1a1e21 !important;
+}
+
+/* This marks the end of the custom link class */
 
   .btn-outline-dark {
     --bs-btn-color: #212529;
@@ -225,14 +243,7 @@ This marks the end of the custom btn class
     background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
   }
 
-  .link-dark {
-    color: #212529 !important;
-  }
-  .link-dark:hover, .link-dark:focus {
-    color: #1a1e21 !important;
-  }
-
-  
+ 
 .border-dark {
     --bs-border-opacity: 1;
     border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
