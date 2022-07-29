@@ -5,17 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Custom.css">
     <link rel="icon" type="image/x-icon" href="exfavicon.png">
     <title>Wag N Tail</title>
 </head>
 <body>
-    <!-- Javascript start -->
-    <script src="js/bootstrap.bundle.js"></script>
-    <!-- Javascript end -->
-    <!-- start of navbar -->
-    <nav>
-        <!-- Just needed something to commit to a new branch. This is my branch-->
-    </nav>
-    <!-- end of navbar -->
+        <!-- Javascript start -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <!-- Javascript end -->
+        <!-- start of navbar -->
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <form class="input-group p-2 m-1 ms-3 invisible-xs" style="max-width:400px;" action="">
+                <input class="form-control" type="text" placeholder="Search here">
+                <button class="btn btn-dark btn-outline-info"><i class="fa-solid fa-magnifying-glass "></i> Search</button>
+            </form>
+            <button class="navbar-toggler border border-2 btn btn-outline-info m-1 me-3" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon text-white p-3"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav bg-dark text-center">
+                    <li class="nav-item">
+                        <a class="nav-link p-4 active text-info" href="WD11_EXERCISE11_DE_JESUS.html"> <h3>Home</h3> </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link p-4 text-info" href="WD11_EXERCISE11_DE_JESUS.html#News"><h3>News and Updates</h3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-4 active text-info" href="WD11_EXERCISE11A_DE_JESUS.html"><h3>Manga</h3></a>
+                    </li>
+                    <li class="nav-item mx-auto d-block d-sm-none">
+                        <!-- Search bar -->
+                        <form class="input-group p-2 m-1" style="max-width:400px" action="">
+                            <input class="form-control" type="text" placeholder="Search here">
+                            <button class="btn btn-dark btn-outline-info"><i class="fa-solid fa-magnifying-glass"></i>   Search </button>
+                        </form>
+                        <!-- Search bar -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+        <div class="bg-secondary">
+            <button class="btn btn-success">
+                Hello
+            </button>
+        </div>
 </body>
 </html>

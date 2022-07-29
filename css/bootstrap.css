@@ -6,6 +6,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  /*Below are the colors I added based on our brand kit*/
+  --bs-beige: #fbeec1;
+  --bs-earth: #bc986a;
+  --bs-peach: #daad86;
+  --bs-olive: #8d8741;
+  --bs-petblue: #000d2e;
+  /*Above are the colors I added based on our brand kit*/
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
