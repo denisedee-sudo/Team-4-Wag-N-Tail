@@ -16,8 +16,80 @@
     <script src="js/bootstrap.bundle.js"></script>
     <!-- Javascript end -->
     <!-- start of navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #FBEEC1;">
-        <img src="logo1.png" alt="">
+    <nav class="navbar bg-beige fixed-top">
+        <img src="logo1.png"  class="navbar-brand" alt="">
+        <form class="input-group p-2 m-1 ms-3 invisible-xs" style="max-width:400px;" action="">
+            <input class="form-control" type="text" placeholder="Search here">
+            <button class="btn btn-olive "><i class="fa-solid fa-magnifying-glass "></i> Search</button>
+        </form>
+        <button class="navbar-toggler border border-2 btn btn-peach m-1 me-3" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="navbar-toggler-icon text-white p-3"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav bg-beige text-center">
+                <li class="nav-item">
+                    <a class="nav-link p-4 active text-petblue" href="#"> <h3>Home</h3> </a>
+                </li>
+                <li class="nav-item dropdown p-4">
+                    <a class="nav-link dropdown text-petblue" href="#" id="dropDownDog" data-bs-toggle="dropdown">
+                        <h3 class="text-petblue">Dogs</h3>
+                    </a>                
+                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownDog">
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-4">
+                    <a class="nav-link dropdown text-petblue" href="#" id="dropDownCats" data-bs-toggle="dropdown">
+                        <h3 class="text-petblue">Cats</h3>
+                    </a>                
+                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownCats">
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link p-4 text-petblue" href="#"><h3>Category</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-4 active text-petblue" href="#"><h3>Category</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-4 active text-petblue" href="#"><h3>Category</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-4 active text-petblue" href="#"><h3>Category</h3></a>
+                </li>
+                <li class="nav-item mx-auto d-block d-sm-none">
+                    <!-- Search bar -->
+                    <form class="input-group p-2 m-1" style="max-width:400px" action="">
+                        <input class="form-control" type="text" placeholder="Search here">
+                        <button class="btn btn-olive"><i class="fa-solid fa-magnifying-glass"></i>  Search </button>
+                    </form>
+                    <!-- Search bar -->
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- end of navbar -->
 
