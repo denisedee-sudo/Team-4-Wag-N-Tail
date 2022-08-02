@@ -1,0 +1,352 @@
+/* 
+Below code makes it so that an element is only visible when the screen is large.
+*/
+.visible-lg {
+  visibility: hidden !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .visible-lg {
+  visibility: visible !important;
+  }
+}
+/* 
+Above code makes it so that an element is only visible when the screen is large.
+*/
+/* 
+Below code makes it so that an element is hidden when the screen is extra small.
+*/
+@media only screen and (max-width: 575px) {
+  .invisible-xs {
+  display: none !important;
+  }
+}
+/* 
+Above code makes it so that an element is hidden when the screen is extra small.
+*/
+/* 
+Following code is in the process of being edited for custom use.
+*/
+
+/* 
+Following code is the template for custom bg class.
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+*/
+/* This marks the start of custom bg class */
+.bg-beige {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-beige-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-earth {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-earth-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-peach {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-peach-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-olive {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-olive-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-petblue {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-petblue-rgb), var(--bs-bg-opacity)) !important;
+}
+/* This marks the end of the custom bg class */
+/* 
+Following code is the template for custom btn class.
+
+  .btn-dark {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1c1f23;
+    --bs-btn-hover-border-color: #1a1e21;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1a1e21;
+    --bs-btn-active-border-color: #191c1f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #212529;
+    --bs-btn-disabled-border-color: #212529;
+  }
+*/
+.btn-petblue {
+  --bs-btn-color: #ecebeb;
+  --bs-btn-bg: #000d2e;
+  --bs-btn-border-color: #011138;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #030129;
+  --bs-btn-hover-border-color: #1a1e21;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1a1e21;
+  --bs-btn-active-border-color: #191c1f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-earth {
+  --bs-btn-color: #f3f3f3;
+  --bs-btn-bg: #bc986a;
+  --bs-btn-border-color: #a88658;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b98848;
+  --bs-btn-hover-border-color: #c77329;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1a1e21;
+  --bs-btn-active-border-color: #191c1f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-peach {
+  --bs-btn-color: #000d2e;
+  --bs-btn-bg: #daad86;
+  --bs-btn-border-color: #d89a64;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #da9050;
+  --bs-btn-hover-border-color: #db853a;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1a1e21;
+  --bs-btn-active-border-color: #191c1f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-beige {
+  --bs-btn-color: #000d2e;
+  --bs-btn-bg: #fbeec1;
+  --bs-btn-border-color: #fde89c;
+  --bs-btn-hover-color: #01133f;
+  --bs-btn-hover-bg: #f1f093;
+  --bs-btn-hover-border-color: #fce180;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1a1e21;
+  --bs-btn-active-border-color: #fde89c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #fde89c;
+}
+
+.btn-olive {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #8d8741;
+  --bs-btn-border-color: #aa9e1d;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #5c582a;
+  --bs-btn-hover-border-color: #534d0a;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #e0da94;
+  --bs-btn-active-bg: #363204;
+  --bs-btn-active-border-color: #363204;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #1b1902;
+  --bs-btn-disabled-border-color: #1b1902;
+}
+/* 
+This marks the end of the custom btn class
+*/
+/* The following is a template for custom text class 
+  .text-dark {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  }
+*/
+/* This marks the start of the custom text class */
+
+.text-petblue {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-petblue-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-beige {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-beige-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-earth {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-earth-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-olive {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-olive-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-peach {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-peach-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* This marks the end of the custom text class */
+
+/* The following is a template for custom text class 
+.link-dark {
+  color: #212529 !important;
+}
+.link-dark:hover, .link-dark:focus {
+  color: #1a1e21 !important;
+}
+*/
+/* This marks the start of the custom link class */
+
+.link-petblue {
+  color: #000d2e !important;
+}
+.link-petblue:hover, .link-petblue:focus {
+  color: #030129 !important;
+}
+
+.link-beige {
+  color: #fbeec1 !important;
+}
+.link-beige:hover, .link-beige:focus {
+  color: #f1f093 !important;
+}
+
+.link-earth {
+  color: #bc986a !important;
+}
+.link-earth:hover, .link-earth:focus {
+  color: #b98848 !important;
+}
+
+.link-olive {
+  color: #8d8741 !important;
+}
+.link-olive :hover, .link-olive:focus {
+  color: #5c582a !important;
+}
+
+.link-peach {
+  color: #daad86 !important;
+}
+.link-peach:hover, .link-peach:focus {
+  color: #da9050 !important;
+}
+
+/* This marks the end of the custom link class */
+
+  .btn-outline-dark {
+    --bs-btn-color: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #212529;
+    --bs-btn-hover-border-color: #212529;
+    --bs-btn-focus-shadow-rgb: 33, 37, 41;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #212529;
+    --bs-btn-active-border-color: #212529;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #212529;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+  }
+
+.text-bg-dark {
+    color: #fff !important;
+    background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
+  }
+
+ 
+.border-dark {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
+  }
+
+  .table-dark {
+    --bs-table-color: #fff;
+    --bs-table-bg: #212529;
+    --bs-table-border-color: #373b3e;
+    --bs-table-striped-bg: #2c3034;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+  }
+  
+  .dropdown-menu-dark {
+    --bs-dropdown-color: #dee2e6;
+    --bs-dropdown-bg: #343a40;
+    --bs-dropdown-border-color: var(--bs-border-color-translucent);
+    --bs-dropdown-box-shadow: ;
+    --bs-dropdown-link-color: #dee2e6;
+    --bs-dropdown-link-hover-color: #fff;
+    --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+    --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #0d6efd;
+    --bs-dropdown-link-disabled-color: #adb5bd;
+    --bs-dropdown-header-color: #adb5bd;
+  }
+
+  .navbar-dark {
+    --bs-navbar-color: rgba(255, 255, 255, 0.55);
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(114, 113, 113, 0.1);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .alert-dark {
+    --bs-alert-color: #141619;
+    --bs-alert-bg: #d3d3d4;
+    --bs-alert-border-color: #bcbebf;
+  }
+  .alert-dark .alert-link {
+    color: #101214;
+  }
+
+  .list-group-item-dark {
+    color: #141619;
+    background-color: #d3d3d4;
+  }
+  .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
+    color: #141619;
+    background-color: #bebebf;
+  }
+  .list-group-item-dark.list-group-item-action.active {
+    color: #fff;
+    background-color: #141619;
+    border-color: #141619;
+  }
+
+  .carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+.carousel-dark .carousel-caption {
+  color: #000;
+}
