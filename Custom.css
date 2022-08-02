@@ -213,11 +213,39 @@ This marks the end of the custom btn class
 */
 /* This marks the start of the custom link class */
 
-.link-dark {
-  color: #212529 !important;
+.link-petblue {
+  color: #000d2e !important;
 }
-.link-dark:hover, .link-dark:focus {
-  color: #1a1e21 !important;
+.link-petblue:hover, .link-petblue:focus {
+  color: #030129 !important;
+}
+
+.link-beige {
+  color: #fbeec1 !important;
+}
+.link-beige:hover, .link-beige:focus {
+  color: #f1f093 !important;
+}
+
+.link-earth {
+  color: #bc986a !important;
+}
+.link-earth:hover, .link-earth:focus {
+  color: #b98848 !important;
+}
+
+.link-olive {
+  color: #8d8741 !important;
+}
+.link-olive :hover, .link-olive:focus {
+  color: #5c582a !important;
+}
+
+.link-peach {
+  color: #daad86 !important;
+}
+.link-peach:hover, .link-peach:focus {
+  color: #da9050 !important;
 }
 
 /* This marks the end of the custom link class */
@@ -285,7 +313,7 @@ This marks the end of the custom btn class
     --bs-navbar-active-color: #fff;
     --bs-navbar-brand-color: #fff;
     --bs-navbar-brand-hover-color: #fff;
-    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+    --bs-navbar-toggler-border-color: rgba(114, 113, 113, 0.1);
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
 
