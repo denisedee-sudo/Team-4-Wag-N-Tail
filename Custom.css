@@ -245,14 +245,44 @@ This marks the end of the custom btn class
 */
 /* This marks the start of the custom link class */
 
+
 .link-petblue {
-  color: #c2460d !important;
+  color: #000d2e !important;
 }
-.link-petblue:hover, .link-blue:focus {
-  color: #43aeff !important;
+.link-petblue:hover, .link-petblue:focus {
+  color: #030129 !important;
+}
+
+.link-beige {
+  color: #fbeec1 !important;
+}
+.link-beige:hover, .link-beige:focus {
+  color: #f1f093 !important;
+}
+
+.link-earth {
+  color: #bc986a !important;
+}
+.link-earth:hover, .link-earth:focus {
+  color: #b98848 !important;
+}
+
+.link-olive {
+  color: #8d8741 !important;
+}
+.link-olive :hover, .link-olive:focus {
+  color: #5c582a !important;
+}
+
+.link-peach {
+  color: #daad86 !important;
+}
+.link-peach:hover, .link-peach:focus {
+  color: #da9050 !important;
 }
 
 /* This marks the end of the custom link class */
+
 /* The following is a template for custom text class 
   .btn-outline-dark {
     --bs-btn-color: #212529;
