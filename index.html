@@ -11,14 +11,14 @@
 
     <title>Wag N Tail</title>
 </head>
-<body>
+<body class="container">
     <!-- Javascript start -->
     <script src="js/bootstrap.bundle.js"></script>
     <!-- Javascript end -->
     <!-- start of navbar -->
     <nav class="navbar bg-beige fixed-top">
-        <img src="logo1.png"  class="navbar-brand" alt="">
-        <form class="input-group p-2 m-1 ms-3 invisible-xs" style="max-width:400px;" action="">
+        <img src="logo1.png"  class="navbar-brand" style="max-width:300px;" alt="Wag N Tail">
+        <form class="input-group p-2 m-1 ms-3 invisible-xs"  style="max-width:450px;" action="">
             <input class="form-control" type="text" placeholder="Search here">
             <button class="btn btn-olive "><i class="fa-solid fa-magnifying-glass"></i> Search</button>
         </form>
@@ -35,7 +35,7 @@
                     <a class="nav-link dropdown text-petblue" href="#" id="dropDownDog" data-bs-toggle="dropdown">
                         <h3 class="text-petblue">Dogs</h3>
                     </a>                
-                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownDog">
+                    <ul class="dropdown-menu dropdown-menu-beige text-center" aria-labelledby="dropDownDog">
                         <li>
                             <a class="dropdown-item text-petblue" href="#"><h4>Dog Food</h4></a>
                         </li>
@@ -54,7 +54,7 @@
                     <a class="nav-link dropdown text-petblue" href="#" id="dropDownCat" data-bs-toggle="dropdown">
                         <h3 class="text-petblue">Cats</h3>
                     </a>                
-                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownCat">
+                    <ul class="dropdown-menu dropdown-menu-beige  text-center" aria-labelledby="dropDownCat">
                         <li>
                             <a class="dropdown-item text-petblue" href="#"><h4>Cat Food</h4></a>
                         </li>
@@ -73,7 +73,7 @@
                     <a class="nav-link dropdown text-petblue" href="#" id="dropDownFish" data-bs-toggle="dropdown">
                         <h3 class="text-petblue">Fish</h3>
                     </a>                
-                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownFish">
+                    <ul class="dropdown-menu dropdown-menu-beige  text-center" aria-labelledby="dropDownFish">
                         <li>
                             <a class="dropdown-item text-petblue" href="#"><h4>Fish Food</h4></a>
                         </li>
@@ -92,7 +92,7 @@
                     <a class="nav-link dropdown text-petblue" href="#" id="dropDownSmall and Terrarium Animals" data-bs-toggle="dropdown">
                         <h3 class="text-petblue">Small and Terrarium Animals</h3>
                     </a>                
-                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownSmall and Terrarium Animals">
+                    <ul class="dropdown-menu dropdown-menu-beige  text-center" aria-labelledby="dropDownSmall and Terrarium Animals">
                         <li>
                             <a class="dropdown-item text-petblue" href="#"><h4>Small and Terrarium Animals Food</h4></a>
                         </li>
@@ -119,6 +119,35 @@
         </div>
     </nav>
     <!-- end of navbar -->
+    <br><br><br><br>
+    <section class="row">
+        <div id="heroSection" class="carousel slide col-12" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button data-bs-target="#heroSection" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#heroSection" data-bs-slide-to="1"></button>
+                <button data-bs-target="#heroSection" data-bs-slide-to="2"></button>                
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="Images\carousel1.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images\carousel2.png" class="d-block w-100" >
+                </div>
+                <div class="carousel-item">
+                    <img src="Images\carousel3.png" class="d-block w-100">
+                </div>        
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroSection" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <!--End ofPrev Button-->
+            <button class="carousel-control-next" type="button" data-bs-target="#heroSection" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <!--End of Next Button-->   
+        </div>     
+    </section>
 
     <!--Start of Footer -->
     <br><br><br><br><br><br><br>
