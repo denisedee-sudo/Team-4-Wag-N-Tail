@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="Custom.css">
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="Custom.css">
 
     <title>Wag N Tail</title>
 </head>
-<body>
+<body class="container">
     <!-- Javascript start -->
     <script src="js/bootstrap.bundle.js"></script>
     <!-- Javascript end -->
     <!-- start of navbar -->
     <nav class="navbar bg-beige fixed-top">
-        <img src="logo1.png"  class="navbar-brand" alt="">
-        <form class="input-group p-2 m-1 ms-3 invisible-xs" style="max-width:400px;" action="">
+        <img src="logo1.png"  class="navbar-brand" style="max-width:300px;" alt="Wag N Tail">
+        <form class="input-group p-2 m-1 ms-3 invisible-xs"  style="max-width:450px;" action="">
             <input class="form-control" type="text" placeholder="Search here">
             <button class="btn btn-olive "><i class="fa-solid fa-magnifying-glass"></i> Search</button>
         </form>
@@ -28,73 +28,89 @@
             <span class="navbar-toggler-icon text-white p-3"></span>
         </button>
         <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="navbar-nav bg-beige text-center">
+            <ul class="navbar-nav bg-beige text-petblue text-center">
                 <li class="nav-item">
-                    <a class="nav-link p-2 active text-petblue" href="#"> <h3>Home</h3> </a>
+                    <a class="nav-link p-1 active text-petblue" href="#heroSection"> <h3>Home</h3> </a>
                 </li>
-                <li class="nav-item dropdown p-2">
-                    <a class="nav-link dropdown text-petblue" href="#" id="dropDownDog" data-bs-toggle="dropdown">
-                        <h3 class="text-petblue">Dogs</h3>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown " href="#" id="dropDownDog" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Dogs</h3>
                     </a>                
-                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownDog">
+                    <ul class="dropdown-menu dropdown-menu-olive text-center" aria-labelledby="dropDownDog">
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Dog Food</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Dog Toys</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Dog Accessories</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Dog Grooming</h4></a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown p-2">
-                    <a class="nav-link dropdown text-petblue" href="#" id="dropDownCats" data-bs-toggle="dropdown">
-                        <h3 class="text-petblue">Cats</h3>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown " href="#" id="dropDownCat" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Cats</h3>
                     </a>                
-                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownCats">
+                    <ul class="dropdown-menu dropdown-menu-olive  text-center" aria-labelledby="dropDownCat">
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Cat Food</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Cat Toys</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Cat Accessories</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Cat Grooming</h4></a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown p-2">
-                    <a class="nav-link dropdown text-petblue" href="#" id="dropDownFishes" data-bs-toggle="dropdown">
-                        <h3 class="text-petblue">Fishes</h3>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown " href="#" id="dropDownFish" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Fish</h3>
                     </a>                
-                    <ul class="dropdown-menu bg-beige" aria-labelledby="dropDownFishes">
+                    <ul class="dropdown-menu dropdown-menu-olive  text-center" aria-labelledby="dropDownFish">
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Fish Food</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Fish Toys</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Fish Accessories</h4></a>
                         </li>
                         <li>
-                            <a class="dropdown-item text-petblue" href="#"><h4>Sample</h4></a>
+                            <a class="dropdown-item " href="#"><h4>Fish Grooming</h4></a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link p-2 active text-petblue" href="#"><h3>Category</h3></a>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown " href="#" id="dropDownSmall and Terrarium Animals" data-bs-toggle="dropdown">
+                        <h3 class="text-petblue">Small and Terrarium Animals</h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-olive  text-center" aria-labelledby="dropDownSmall and Terrarium Animals">
+                        <li>
+                            <a class="dropdown-item" href="#"><h4>Food</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Toys</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Accessories</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Grooming</h4></a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item mx-auto d-block d-sm-none">
                     <!-- Search bar -->
-                    <form class="input-group p-2 m-1" style="max-width:400px" action="">
+                    <form class="input-group p-1 m-1" style="max-width:400px" action="">
                         <input class="form-control" type="text" placeholder="Search here">
                         <button class="btn btn-olive"><i class="fa-solid fa-magnifying-glass"></i>  Search </button>
                     </form>
@@ -104,109 +120,177 @@
         </div>
     </nav>
     <!-- end of navbar -->
+    <br><br><br><br><br>
+    <div class="row">
+        <section id="heroSection" class="carousel slide col-12 " data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                <button data-bs-target="#heroSection" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#heroSection" data-bs-slide-to="1"></button>
+                <button data-bs-target="#heroSection" data-bs-slide-to="2"></button>                
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images\carousel1.png" class="d-block w-100">
+                    <br>
+                    <div class="text-center">
+                        <button class="btn btn-olive hover-big" data-bs-toggle="modal" data-bs-target="#c1">Buy Now!</button>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="Images\carousel2.png" class="d-block w-100" >
+                    <br>
+                    <div class="text-center">
+                        <button class="btn btn-olive hover-big" data-bs-toggle="modal" data-bs-target="#c2">Buy Now!</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images\carousel3.png" class="d-block w-100">
+                    <br>
+                    <div class="text-center">
+                        <button class="btn btn-olive hover-big" data-bs-toggle="modal" data-bs-target="#c3">Buy Now!</button>
+                    </div>
+                </div>        
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroSection" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <!--End ofPrev Button-->
+            <button class="carousel-control-next" type="button" data-bs-target="#heroSection" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <!--End of Next Button-->   
+        </section>
+        <section class="col-12 col-lg-8 col-md-8" id="brands">
+            <div class="row g-2 m-5 bg-peach rounded p-2 text-petblue">
+                <h1 class="text-center">Brands</h1>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Acana.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Saint Gertie.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Whiskas.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Special Dog.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Awesome Pawsome.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Pedigree.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Royal Canin.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\Saint Gertie.png" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big bg-beige p-2" src="Images\Instachew.png" alt="test-image"> </div>
+                <!-- <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\" alt="test-image"> </div>
+                <div class="col-4 p-2"> <img class="img rounded img-fluid hover-big" src="Images\" alt="test-image"> </div> -->
+            </div>
+        </section> 
+        <section class="col-12 col-lg-4 col-md-4 p-3" id="twitter-feed">
+            <br><br>
+            <div  class="overflow-scroll" style="height:750px;" >
+                <!-- This is a test account for the twitter feed -->
+                <a class="twitter-timeline" href="https://twitter.com/Petshopph?ref_src=twsrc%5Etfw">Tweets by Petshopph</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <!-- This is a test account for the twitter feed -->     
+            </div>      
+        </section>
+        <section class="col-12" id="best-seller">
+            <h1 class="text-petblue">Best Sellers</h1>
+            <div class="row">
+                <div class="col-4 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-olive p-3 hover-big hover-gradient" src="exfavicon.png" alt="best-seller">
+                </div>
+                <div class="col-4 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-olive p-3 hover-big hover-gradient" src="exfavicon.png" alt="best-seller">
+                </div>
+                <div class="col-4 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-olive p-3 hover-big hover-gradient" src="exfavicon.png" alt="best-seller">
+                </div>
+                <div class="col-4 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-olive p-3 hover-big hover-gradient" src="exfavicon.png" alt="best-seller">
+                </div>
+                <div class="col-4 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-olive p-3 hover-big hover-gradient" src="exfavicon.png" alt="best-seller">
+                </div>
+                <div class="col-4 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-olive p-3 hover-big hover-gradient" src="exfavicon.png" alt="best-seller">
+                </div>
+            </div>
+        </section>   
+    </div>
 
     <!--Start of Footer -->
     <br><br><br><br><br><br><br>
     <footer class="text-center">
             <!-- Grid container -->
         <div class="container p-4">
-         
-            
-        <form action="">
-                <!--Grid row-->
-                <div class="row d-flex justify-content-center">
-                    <!--Grid column-->
-                    <div class="col-auto">
-                    <p class="pt-2">
-                        <strong>Sign up for our newsletter</strong>
-                    </p>
-                    </div>
-                    <!--Grid column-->
-        
-                    <!--Grid column-->
-                    <div class="col-md-5 col-12">
-                    <!-- Email input -->
-                    <div class="form-outline form-white mb-4">
-                        <input type="email" id="formExample" class="form-control" placeholder="Email address"/>
-                    </div>
-                    </div>
-                    <!--Grid column-->
-        
-                    <!--Grid column-->
-                    <div class="col-auto">
-                    <!-- Submit button -->
-                    <button type="submit" class="btn btn-outline-light mb-4" >
-                        Subscribe
-                    </button>
-                    </div>
-                    <!--Grid column-->
-                </div>
-                <!--Grid row-->
-                </form>
-          
-         
+       
         <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Wag N' Tail</h5>
-        
-                    <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#!" style="text-decoration: none;">Home</a>
-                    </li>
-                    <li>
-                        <a href="#!"  style="text-decoration: none;">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#!"  style="text-decoration: none;">Contact Us</a>
-                    </li>
-                    <li class=" p-3">
-                        <i class="bi bi-facebook me-2"></i>
-                        <i class="bi bi-instagram me-2"></i>
-                        <i class="bi bi-twitter me-2"></i>
-                    </li>
-                  
-                    </ul>
-                </div>
-                <!--Grid column-->
-        
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <img src="logo1.png" alt="" class="w-100 mb-3">
+                     <p class="mb-2">Address: 123 Road, Cebu City, Cebu 6015</p>
+                     <p class="mb-2">Phone: +63 912 345 6789</p>
+                     <p class="mb-2">Email: wagntail@gmail.com</p>
+
+                   <a href="#!">
+                       <i class="bi bi-facebook me-2"></i>
+                   </a>
+                   <a href="#!">
+                       <i class="bi bi-instagram me-2"></i>
+                   </a>
+                   <a href="#!">
+                       <i class="bi bi-twitter me-2"></i>
+                   </a>
+               </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase">Popular Collections</h5>
         
                     <ul class="list-unstyled mb-0">
                     <li>
-                        <a href="#!" style="text-decoration: none;">Dog Food</a>
+                        <a href="#!" style="text-decoration: none;">DOG SHOP</a>
                     </li>
                     <li>
-                        <a href="#!" style="text-decoration: none;">Pet Food</a>
+                        <a href="#!"  style="text-decoration: none;">CAT SHOP</a>
                     </li>
                     <li>
-                        <a href="#!" style="text-decoration: none;">Cat Shop</a>
-                    </li>
+                        <a href="#!"  style="text-decoration: none;">FISH SHOP</a>
+                    </li>  
                     <li>
-                        <a href="#!" style="text-decoration: none;">Fish Shop</a>
-                    </li>
+                       <a href="#!"  style="text-decoration: none;">SMALL & TERRARIUM ANIMALS</a>
+                   </li>
+                   
                     </ul>
                 </div>
                 <!--Grid column-->
         
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Help & Information</h5>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                   <h5 class="text-uppercase">Help & Information</h5>
+       
+                   <ul class="list-unstyled mb-0">
+                    <li>
+                       <a href="#!" style="text-decoration: none;">Contact Us</a>
+                   </li>
+                   <li>
+                       <a href="#!" style="text-decoration: none;">About Us</a>
+                   </li>
+                   <li>
+                       <a href="#!" style="text-decoration: none;">Terms & Conditions</a>
+                   </li>
+                   <li>
+                       <a href="#!" style="text-decoration: none;">Privacy Policy</a>
+                   </li>
+                   <li>
+                       <a href="#!" style="text-decoration: none;">Disclaimer</a>
+                   </li>
+                   </ul>
+               </div>
+                <!--Grid column-->
         
-                    <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#!" style="text-decoration: none;">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#!" style="text-decoration: none;">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#!" style="text-decoration: none;">Disclaimer</a>
-                    </li>
-                    </ul>
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                   <h5 class="text-uppercase">Join our Newsletter Now!</h5>
+                   <p>Get E-mail updates about our latest shop and special offers.</p>
+                    <form action="" class="input-group">
+                       <input type="email" class="form-control" placeholder="Enter Email Address"/>
+                       <button class="btn btn-olive" type="button" >Subscribe</button>
+                    </form>
                 </div>
                 <!--Grid column-->
                 </div>
@@ -223,7 +307,119 @@
             <!-- Copyright -->
         </footer>
   <!-- Footer -->
-    <!--End of Footer -->
+<!-- Start of Modals -->
+    <div class="modal" id="c1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Product Name Here</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Card Header</h3>
+                        </div>
+                        <img src="exfavicon.png" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Card Title</h3>
+                            <h5 class="card-subtitle text-secondary">Card Subtitle</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ullam voluptas ut ab, totam nemo ea, dicta esse similique recusandae omnis doloremque voluptate. Similique voluptatibus quo impedit facilis expedita officia.</p>
+                        </div>
+                        <div class="card-footer">
+                            <h4>Card Footer</h4>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci assumenda aut odio voluptatem alias, totam ad itaque ut quod provident numquam voluptas ipsa vero recusandae. Doloribus excepturi officia iste.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-dark">
+                        Add to Cart <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    <div class="modal" id="c2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Product Name Here</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Card Header</h3>
+                        </div>
+                        <img src="Images\Whiskas.png" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Card Title</h3>
+                            <h5 class="card-subtitle text-secondary">Card Subtitle</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ullam voluptas ut ab, totam nemo ea, dicta esse similique recusandae omnis doloremque voluptate. Similique voluptatibus quo impedit facilis expedita officia.</p>
+                        </div>
+                        <div class="card-footer">
+                            <h4>Card Footer</h4>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci assumenda aut odio voluptatem alias, totam ad itaque ut quod provident numquam voluptas ipsa vero recusandae. Doloribus excepturi officia iste.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-dark">
+                        Add to Cart <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal" id="c3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Product Name Here</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Card Header</h3>
+                        </div>
+                        <img src="Images\Royal Canin.png" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Card Title</h3>
+                            <h5 class="card-subtitle text-secondary">Card Subtitle</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ullam voluptas ut ab, totam nemo ea, dicta esse similique recusandae omnis doloremque voluptate. Similique voluptatibus quo impedit facilis expedita officia.</p>
+                        </div>
+                        <div class="card-footer">
+                            <h4>Card Footer</h4>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci assumenda aut odio voluptatem alias, totam ad itaque ut quod provident numquam voluptas ipsa vero recusandae. Doloribus excepturi officia iste.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-dark">
+                        Add to Cart <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- End of Modals -->
+    <!--End of Footer -->
 </body>
 </html>
