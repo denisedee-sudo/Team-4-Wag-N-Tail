@@ -15,9 +15,24 @@ Below code makes it so that an element gets larger on hover.
 /* 
 Above code makes it so that an element gets larger on hover.
 */
+/* 
+Below code makes it so that an element changes color on hover.
+*/
 
 /* 
-Below code makes it so that an element gets larger on hover.
+Above code makes it so that an element changes color on hover.
+*/
+.hover-petblue {
+  transition: .20s;
+  color: #000d2e;
+}
+
+.hover-petblue:hover {
+  color: #0d6efd;
+}
+
+/* 
+Below code makes it so that an element changes bg color on hover.
 */
 .hover-gradient {
   transition: .34s;
@@ -31,7 +46,7 @@ Below code makes it so that an element gets larger on hover.
     ) !important;
 }
 /* 
-Above code makes it so that an element gets larger on hover.
+Above code makes it so that an element changes bg color on hover.
 */
 
 /* 
