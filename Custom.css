@@ -1,3 +1,7 @@
+/* Below changes mouse behavior to pointer */
+.pointer {
+  cursor: pointer;
+}
 /* 
 Below code makes it so that an element gets larger on hover.
 */
