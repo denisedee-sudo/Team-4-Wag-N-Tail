@@ -63,7 +63,7 @@ Above code makes it so that an element changes color on hover.
 }
 
 .hover-olive:hover {
-  color: #ffee2f !important;
+  color: rgba(135, 158, 54, 0.836) !important;
 }
 
 
