@@ -1,0 +1,23 @@
+{
+  "name": "team-4-wag-n-tail",
+  "version": "1.0.0",
+  "description": "SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisedee-sudo/Team-4-Wag-N-Tail.git"
+  },
+  "author": "Denise Dee C. De Jesus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denisedee-sudo/Team-4-Wag-N-Tail/issues"
+  },
+  "homepage": "https://github.com/denisedee-sudo/Team-4-Wag-N-Tail#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "sass": "^1.54.3"
+  }
+}

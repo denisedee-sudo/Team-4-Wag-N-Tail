@@ -28,8 +28,44 @@ Above code makes it so that an element changes color on hover.
 }
 
 .hover-petblue:hover {
-  color: #0d6efd;
+  color: #0d6efd !important;
 }
+
+.hover-earth {
+  transition: .20s;
+  color: #bc986a;
+}
+
+.hover-earth:hover {
+  color: #b98848 !important;
+}
+
+.hover-beige {
+  transition: .20s;
+  color: #fbeec1;
+}
+
+.hover-beige:hover {
+  color: #f1f093 !important;
+}
+
+.hover-peach {
+  transition: .20s;
+  color: #daad86;
+}
+
+.hover-peach:hover {
+  color: #da9050 !important;
+}
+.hover-olive {
+  transition: .20s;
+  color: #8d8741;
+}
+
+.hover-olive:hover {
+  color: #ffee2f !important;
+}
+
 
 /* 
 Below code makes it so that an element changes bg color on hover.
@@ -41,8 +77,30 @@ Below code makes it so that an element changes bg color on hover.
 .hover-gradient:hover {
   background: linear-gradient(
     45deg,
-    rgba(218, 173, 134, 0.7),
-    rgba(141, 135, 65, 0.7) 100%
+    rgba(255, 130, 58, 0.75),
+    rgba(79, 229, 255, 0.7) 100%
+    ) !important;
+}
+.hover-gradient-peach {
+  transition: .34s;
+}
+
+.hover-gradient-peach:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(218, 173, 134, 0.9),
+    rgba(255, 119, 0, 0.7) 100%
+    ) !important;
+}
+.hover-gradient-olive {
+  transition: .34s;
+}
+
+.hover-gradient-olive:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(141, 135, 65, 0.9),
+    rgba(255, 230, 2, 0.836) 100%
     ) !important;
 }
 /* 
@@ -452,7 +510,7 @@ This marks the end of the custom btn class
   --bs-dropdown-bg: #daad86;
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
   --bs-dropdown-box-shadow: ;
-  --bs-dropdown-link-color: #dee2e6;
+  --bs-dropdown-link-color: #ffffff;
   --bs-dropdown-link-hover-color: #fff;
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-link-hover-bg: #da9050;
