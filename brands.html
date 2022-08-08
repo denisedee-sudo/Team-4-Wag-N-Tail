@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css\main.min.css">    
+    <link rel="stylesheet" href="Custom.css">
+    <title>Wag N Tail</title>
+</head>
+<body class="container-fluid">
+    <!-- Javascript start -->
+    <script src="bootstrap.bundle.js"></script>
+    <!-- Javascript end -->
+    <!-- start of navbar -->
+    <nav class="navbar bg-beige fixed-top">
+        <img src="logo1.png"  class="navbar-brand" style="max-width:300px;" alt="Wag N Tail">
+        <form class="input-group p-2 m-1 ms-3 invisible-xs"  style="max-width:450px;" action="">
+            <input class="form-control" type="text" placeholder="Search here">
+            <button class="btn btn-olive "><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </form>
+        <i class="fa-solid fa-cart-shopping hover-big pointer hover-olive fa-3x"></i>
+        <button class="navbar-toggler border border-2 btn btn-peach m-1 me-3" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="navbar-toggler-icon text-white p-3"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav bg-beige text-petblue text-center">
+                <li class="nav-item">
+                    <a class="hover-big hover-gradient nav-link p-1 active text-petblue" href="index.html#heroSection"> <h3>Home</h3> </a>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="#" id="dropDownDog" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Dogs</h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach text-center" aria-labelledby="dropDownDog">
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Dog Food</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Dog Toys</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Dog Accessories</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Dog Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="#" id="dropDownCat" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Cats</h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownCat">
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Cat Food</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Cat Toys</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Cat Accessories</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Cat Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="#" id="dropDownFish" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Fish</h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownFish">
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Fish Food</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Fish Toys</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Fish Accessories</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Fish Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="#" id="dropDownSmall and Terrarium Animals" data-bs-toggle="dropdown">
+                        <h3 class="text-petblue">Small and Terrarium Animals</h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownSmall and Terrarium Animals">
+                        <li>
+                            <a class="dropdown-item" href="#"><h4>Food</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Toys</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Accessories</h4></a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"><h4>Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-auto d-block d-sm-none">
+                    <!-- Search bar -->
+                    <form class="input-group p-1 m-1" style="max-width:400px" action="">
+                        <input class="form-control" type="text" placeholder="Search here">
+                        <button class="btn btn-olive"><i class="fa-solid fa-magnifying-glass"></i>  Search </button>
+                    </form>
+                    <!-- Search bar -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <br><br><br><br>
+    <div class="row text-petblue">
+        <h1 class="text-center p-5  col-12">Browse by Brand</h1>
+        <hr>
+        <h2 class="text-center pt-4 pb-4 col-12">
+            Acana
+        </h2> 
+        <section class="col-12">
+            <div class="row g-2 mx-auto text-center">
+                <div class="col-1"></div>
+                <img class="col-2 hover-big hover-gradient rounded-circle img-fluid p-5 m-1 bg-peach" src="Images\DOG\FOOD\acanadryfood1.png" alt="">
+                <img class="col-2 hover-big hover-gradient rounded-circle img-fluid p-5 m-1 bg-peach" src="Images\DOG\FOOD\acanadryfood2.png" alt="">
+                <img class="col-2 hover-big hover-gradient rounded-circle img-fluid p-5 m-1 bg-peach" src="Images\DOG\FOOD\acana2dryfood2.png" alt="">
+                <img class="col-2 hover-big hover-gradient rounded-circle img-fluid p-5 m-1 bg-peach" src="Images\DOG\FOOD\acana3dryfood1.png" alt="">
+                <img class="col-2 hover-big hover-gradient rounded-circle img-fluid p-5 m-1 bg-peach" src="Images\DOG\FOOD\acana3dryfood2.png" alt="">
+                <div class="col-1"></div>
+            </div>
+        </section>
+    </div>
+</body>
