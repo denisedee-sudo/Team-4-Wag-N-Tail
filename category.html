@@ -10,11 +10,19 @@
     <link rel="stylesheet" href="css\main.min.css">    
     <link rel="stylesheet" href="Custom.css">
 
+    <!--Css for owl carousel start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Css for owl carousel end-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Css for owl carousel theme start-->
+    
+    <!--Css for owl carousel thene end-->
     <title>Wag N Tail</title>
 </head>
 <body class="container-fluid">
     <!-- Javascript start -->
     <script src="bootstrap.bundle.js"></script>
+    
     <!-- Javascript end -->
     <!-- start of navbar -->
     <nav class="navbar bg-beige fixed-top">
@@ -186,41 +194,43 @@
             </div>
         </section>
          <!--Start of Category-->   
+       <!-- <div class="container-fluid">
         <section class="p-5">
-            <div class="row ">
-                <div class="col-sm-3">
-                    <img class="img img-fluid p-3 hover-big pointer" src="../Images/CATEGORY/food.png" alt="food">
-                </div>
-                <div class="col-sm-3">
-                    <img class="img img-fluid p-3 hover-big pointer" src="../Images/CATEGORY/food.png" alt="food">
-                </div>
-                <div class="col-sm-3">
-                    <img class="img img-fluid p-3 hover-big pointer" src="../Images/CATEGORY/food.png" alt="food">
-                </div>
-                <div class="col-sm-3">
-                    <img class="img img-fluid p-3 hover-big pointer" src="../Images/CATEGORY/food.png" alt="food">
+            <h1 class="text-center">Category Name</h1>
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card">
+                            <img src="../Images/CATEGORY/food.png" alt="food" class="card-img-top ">
+                            <div class="card-body">
+                                <h4>Food</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </section>
+       </div> -->
         <!--End of Category-->   
             
         <!-- Delivery and Support Start -->
-        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-olive">
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
             <i class="fa-solid fa-parachute-box fa-3x"></i>
             <h5>We Deliver Nationwide</h5>
             <p>Shop Now!</p>
         </div>
-        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-olive">
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
             <i class="fa-solid fa-money-bill-wave fa-3x"></i>
             <h5>Everyday Low Prices</h5>
             <p>Enjoy Our Affordable Prices</p>
         </div>
-        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-olive">
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
             <i class="fa-solid fa-headset fa-3x"></i>
             <h5>Top Notch Support</h5>
             <p>Always Just a Call or Email Away</p>
         </div>
-        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-olive">
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
             <i class="fa-solid fa-shield-dog fa-3x"></i>
             <h5>Secure Payment</h5>
             <p>Through Mastercard, Visa, or Paypal</p>
@@ -536,5 +546,33 @@
     <!-- End of Best Seller Modals -->
 <!-- End of Modals -->
     <!--End of Footer -->
+
+    <!--jquery file for owl carousel start-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--jquery file for owl carousel end-->
+    <!--js file for owl carousel start-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--js file for owl carousel start-->
+
+    
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+    </script>
 </body>
 </html>
