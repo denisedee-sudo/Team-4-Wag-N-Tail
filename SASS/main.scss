@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+$wag-n-tail: (
+    "beige": #fbeec1,
+    "earth": #bc986a,
+    "peach": #daad86,
+    "olive": #8d8741,
+    "petblue": #000d2e
+);
+$theme-colors: map-merge($wag-n-tail, $theme-colors );
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+

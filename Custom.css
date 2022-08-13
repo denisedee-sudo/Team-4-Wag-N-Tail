@@ -1,3 +1,7 @@
+/* Below changes mouse behavior to pointer */
+.pointer {
+  cursor: pointer;
+}
 /* 
 Below code makes it so that an element gets larger on hover.
 */
@@ -11,9 +15,60 @@ Below code makes it so that an element gets larger on hover.
 /* 
 Above code makes it so that an element gets larger on hover.
 */
+/* 
+Below code makes it so that an element changes color on hover.
+*/
 
 /* 
-Below code makes it so that an element gets larger on hover.
+Above code makes it so that an element changes color on hover.
+*/
+.hover-petblue {
+  transition: .20s;
+  color: #000d2e;
+}
+
+.hover-petblue:hover {
+  color: #0d6efd !important;
+}
+
+.hover-earth {
+  transition: .20s;
+  color: #bc986a;
+}
+
+.hover-earth:hover {
+  color: #b98848 !important;
+}
+
+.hover-beige {
+  transition: .20s;
+  color: #fbeec1;
+}
+
+.hover-beige:hover {
+  color: #f1f093 !important;
+}
+
+.hover-peach {
+  transition: .20s;
+  color: #daad86;
+}
+
+.hover-peach:hover {
+  color: #da9050 !important;
+}
+.hover-olive {
+  transition: .20s;
+  color: #8d8741;
+}
+
+.hover-olive:hover {
+  color: rgba(135, 158, 54, 0.836) !important;
+}
+
+
+/* 
+Below code makes it so that an element changes bg color on hover.
 */
 .hover-gradient {
   transition: .34s;
@@ -22,12 +77,34 @@ Below code makes it so that an element gets larger on hover.
 .hover-gradient:hover {
   background: linear-gradient(
     45deg,
-    rgba(218, 173, 134, 0.7),
-    rgba(141, 135, 65, 0.7) 100%
+    rgba(255, 130, 58, 0.75),
+    rgba(79, 229, 255, 0.7) 100%
+    ) !important;
+}
+.hover-gradient-peach {
+  transition: .34s;
+}
+
+.hover-gradient-peach:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(218, 173, 134, 0.9),
+    rgba(255, 119, 0, 0.7) 100%
+    ) !important;
+}
+.hover-gradient-olive {
+  transition: .34s;
+}
+
+.hover-gradient-olive:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(141, 135, 65, 0.9),
+    rgba(255, 230, 2, 0.836) 100%
     ) !important;
 }
 /* 
-Above code makes it so that an element gets larger on hover.
+Above code makes it so that an element changes bg color on hover.
 */
 
 /* 
@@ -118,7 +195,7 @@ Following code is the template for custom btn class.
   --bs-btn-bg: #000d2e;
   --bs-btn-border-color: #011138;
   --bs-btn-hover-color: #ffffff;
-  --bs-btn-hover-bg: #030129;
+  --bs-btn-hover-bg: #0d6efd;
   --bs-btn-hover-border-color: #1a1e21;
   --bs-btn-focus-shadow-rgb: 66, 70, 73;
   --bs-btn-active-color: #fff;
@@ -156,8 +233,8 @@ Following code is the template for custom btn class.
   --bs-btn-hover-border-color: #db853a;
   --bs-btn-focus-shadow-rgb: 66, 70, 73;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #1a1e21;
-  --bs-btn-active-border-color: #191c1f;
+  --bs-btn-active-bg: #eb7c1c;
+  --bs-btn-active-border-color: #85460f;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #212529;
@@ -433,7 +510,7 @@ This marks the end of the custom btn class
   --bs-dropdown-bg: #daad86;
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
   --bs-dropdown-box-shadow: ;
-  --bs-dropdown-link-color: #dee2e6;
+  --bs-dropdown-link-color: #ffffff;
   --bs-dropdown-link-hover-color: #fff;
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-link-hover-bg: #da9050;

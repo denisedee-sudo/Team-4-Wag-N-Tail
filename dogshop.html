@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css\main.min.css">    
+    <link rel="stylesheet" href="Custom.css">
+    <title>Wag N Tail</title>
+</head>
+<body class="container-fluid">
+    <!-- Javascript start -->
+    <script src="bootstrap.bundle.js"></script>
+    <!-- Javascript end -->
+    <!-- start of navbar -->
+    <nav class="navbar bg-beige fixed-top">
+        <a href="index.html"><img src="logo1.png"  class="navbar-brand hover-big" style="max-width:300px;" alt="Wag N Tail"></a>
+        <form class="input-group p-2 m-1 ms-3 invisible-xs"  style="max-width:450px;" action="">
+            <input class="form-control" type="text" placeholder="Search here">
+            <button class="btn btn-petblue text-beige "><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </form>
+        <i class="fa-solid fa-cart-shopping hover-big pointer hover-petblue fa-3x"></i>
+        <button class="navbar-toggler border border-2 btn btn-peach m-1 me-3" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="navbar-toggler-icon text-white p-3"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav bg-beige text-petblue text-center">
+                <li class="nav-item">
+                    <!-- <a class="hover-big hover-gradient nav-link p-1 active text-petblue" href="#heroSection"> <h3>Home</h3> </a> -->
+                    <a class="hover-big hover-gradient nav-link p-1 active text-petblue" href="index.html#heroSection"> <h3>Home <i class="fa-solid fa-paw"></i></h3> </a>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="dogshop.html" id="dropDownDog" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Dogs  <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach text-center" aria-labelledby="dropDownDog">
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Food</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#dryfood"><h4>Dog Food</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Toys</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#toys"><h4>Dog Toys</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Accessories</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#cratespensgates"><h4>Dog Accessories</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Grooming</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#healthcare"><h4>Dog Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="catshop.html" id="dropDownCat" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Cats <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownCat">
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Food</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#catfood"><h4>Cat Food</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Toys</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#toys"><h4>Cat Toys</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Accessories</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#accessories"><h4>Cat Accessories</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Grooming</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#grooming"><h4>Cat Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="fishshop.html" id="dropDownFish" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Fish <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownFish">
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Fish Food</h4></a> -->
+                            <a class="dropdown-item " href="fishshop.html#fishfood"><h4>Fish Food</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Fish Toys</h4></a> -->
+                            <a class="dropdown-item " href="fishshop.html#aquariums"><h4>Fish Aquariums</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Fish Accessories</h4></a> -->
+                            <a class="dropdown-item " href="fishshop.html#others"><h4>Fish Others</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="smallanimals.html" id="dropDownSmall and Terrarium Animals" data-bs-toggle="dropdown">
+                        <h3 class="text-petblue">Small and Terrarium Animals <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownSmall and Terrarium Animals">
+                        <li>
+                            <!-- <a class="dropdown-item" href="#"><h4>Food</h4></a> -->
+                            <a class="dropdown-item" href="smallanimals.html#birds"><h4>Birds</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Toys</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#guineapig"><h4>Guinea Pig</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Accessories</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#hamster"><h4>Hamster</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Grooming</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#mouse"><h4>Mouse</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Grooming</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#rabbit"><h4>Rabbit</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-auto d-block d-sm-none">
+                    <!-- Search bar -->
+                    <form class="input-group p-1 m-1" style="max-width:400px" action="">
+                        <input class="form-control" type="text" placeholder="Search here">
+                        <button class="btn btn-petblue"><i class="fa-solid fa-magnifying-glass"></i>  Search </button>
+                    </form>
+                    <!-- Search bar -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <br><br><br><br>
+    
+    
+
+    
+    <img src="Images/DOG FOODS.png" class="d-block w-100">
+    <br><br>
+
+        <div>
+            <h1 id="dryfood" class="text-center pt-4 pb-4 col-12">
+                DRY FOOD
+
+            </h1> 
+            <section class="col-12 pb-5">
+            <div class="row g-2 mx-auto text-center d-flex justify-content-evenly">
+                <div class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\acanadryfood1.png" alt="" data-bs-toggle="modal" data-bs-target="#acanadryfood1">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\mongespecialdryfood2.png" alt="" data-bs-toggle="modal" data-bs-target="#mongespecialdryfood2">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\acanadryfood2.png" alt="" data-bs-toggle="modal" data-bs-target="#acanadryfood2">
+                </div>
+                <div class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\mongespecial2dryfood2.png" alt="" data-bs-toggle="modal" data-bs-target="#mongespecial2dryfood2">
+                </div>
+                <div class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\royalcanin2dryfood1.png" alt="" data-bs-toggle="modal" data-bs-target="#royalcanin2dryfood1">
+                </div>
+                <div class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\royalcanin2dryfood2.png" alt="" data-bs-toggle="modal" data-bs-target="#royalcanin2dryfood2">
+                </div>
+                
+            </div>
+            </section>
+        </div>
+    
+        <div class="bg-beige container-fluid">
+            <br>
+            <h1 id = "wetfood" class="text-center pt-4 pb-4 col-12">WET FOOD</h1>
+            <section class="col-12 pb-5">
+                <div class="row g-2 mx-auto text-center d-flex justify-content-evenly">
+                    
+                    <div class="col-6 col-lg-2">
+                        <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\mongespecialwetfood1.png" alt="" data-bs-toggle="modal" data-bs-target="#mongespecialwetfood1">
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\mongespecialwetfood2.png" alt="" data-bs-toggle="modal" data-bs-target="#mongespecialwetfood2">
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\pedigreewetfood1.png" alt="" data-bs-toggle="modal" data-bs-target="#pedigreewetfood1">
+                    </div>
+                    <div  class="col-6 col-lg-2">
+                        <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\pedigreewetfood2.png" alt="" data-bs-toggle="modal" data-bs-target="#pedigreewetfood2">
+                    </div>
+                    
+                </div>
+            </section>
+
+        </div>
+            <br>
+
+            <div>
+                <br>
+                <h1 id = "milk" class="text-center pt-4 pb-4 col-12">MILK</h1>
+                <section class="col-12 pb-5">
+                    <div class="row g-2 mx-auto text-center d-flex justify-content-evenly">
+                      
+                        <div class="col-6 col-lg-2">
+                            <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\petsownmilk.png" alt="" data-bs-toggle="modal" data-bs-target="#petsownmilk">
+                        </div>
+                        <div class="col-6 col-lg-2">
+                            <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images\DOG\FOOD\royalcaninmilk1.png" alt="" data-bs-toggle="modal" data-bs-target="#royalcaninmilk1">
+                        </div>
+                    
+                    </div>
+                </section>
+    
+            </div>
+        
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id = "treats" id="doghealthcare" class="text-center pt-4 pb-4 col-12">
+                TREATS
+
+            </h2> 
+            <section class="col-12 pb-5">
+            <div class="row g-2 mx-auto text-center d-flex justify-content-evenly">
+                
+                <div  class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TREATS/awesomedogtreats.png" alt="" data-bs-toggle="modal" data-bs-target="#awesomedogtreats">
+                </div>
+                <div class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TREATS/jerhighdogtreats.png" alt="" data-bs-toggle="modal" data-bs-target="#jerhighdogtreats">
+                </div>
+                <div class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TREATS/pedigreedogtreats.png" alt="" data-bs-toggle="modal" data-bs-target="#pedigreedogtreats">
+                </div>
+                <div class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TREATS/pedigreerodeodogtreats.png" alt="" data-bs-toggle="modal" data-bs-target="#pedigreerodeodogtreats">
+                </div>
+             
+                
+            </div>
+        </section>
+        </div>
+        <!-- break -->
+        <br><br><br>
+        <h2 id="cratespensgates" class="text-center pt-4 pb-4 col-12">
+            CRATES, PENS & GATES
+
+        </h2> 
+        
+        <div class="row g-2 mx-auto text-center d-flex justify-content-evenly">
+           
+            <img  class="col-4 col-lg-2 img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/CRATES, PENS & GATES/ibiyayacollapsiblepetcarrier.png" alt="" data-bs-toggle="modal" data-bs-target="#ibiyayacollapsiblepetcarrier">
+            <img  class="col-4 col-lg-2 img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/CRATES, PENS & GATES/outwarddogbackpack.png" alt="" data-bs-toggle="modal" data-bs-target="#outwarddogbackpack">
+            <img class="col-4 col-lg-2 img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/CRATES, PENS & GATES/outwardpetcarrier.png" alt="" data-bs-toggle="modal" data-bs-target="#outwardpetcarrier">
+            <img  class="col-4 col-lg-2 img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/CRATES, PENS & GATES/pettoaicollapsiblepetcage.png" alt="" data-bs-toggle="modal" data-bs-target="#pettoaicollapsiblepetcage">
+            <img  class="col-4 col-lg-2 img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/CRATES, PENS & GATES/pettravelcratecarrier.png" alt="" data-bs-toggle="modal" data-bs-target="#pettravelcratecarrier">
+           
+
+            
+        </div>
+        <!-- break -->
+        <br><br><br>
+        <div class="bg-beige">
+            <h2 id="healthcare" class="text-center pt-4 pb-4 col-12">
+                HEALTHCARE
+    
+            </h2> 
+            
+            <div class="row g-2 mx-auto text-center d-flex justify-content-evenly">
+                <div  class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/HEALTHCARE/goldmedalshampoo.png" alt="" data-bs-toggle="modal" data-bs-target="#goldmedalshampoo">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/HEALTHCARE/lcvitmultivitamins.png" alt="" data-bs-toggle="modal" data-bs-target="#lcvitmultivitamins">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/HEALTHCARE/papienmalacpetsupplement.png" alt="" data-bs-toggle="modal" data-bs-target="#papienmalacpetsupplement">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/HEALTHCARE/virbacpetsupplement.png" alt="" data-bs-toggle="modal" data-bs-target="#virbacpetsupplement"> 
+                </div>
+
+            </div>
+            <br><br>
+        </div>
+
+        <br><br>
+        <div>
+            <h2 id="toys" class="text-center pt-4 pb-4 col-12">
+                TOYS
+    
+            </h2> 
+            
+            <div class="row g-2 mx-auto text-center d-flex justify-content-evenly">
+                
+                <div  class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TOYS/kongdogtoy.png" alt="" data-bs-toggle="modal" data-bs-target="#kongdogtoy">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class="img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TOYS/michikodogtoy.png" alt="" data-bs-toggle="modal" data-bs-target="#michikodogtoy">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TOYS/outwarddogtoy.png" alt="" data-bs-toggle="modal" data-bs-target="#outwarddogtoy">
+                </div>
+                <div  class="col-6 col-lg-2">
+                    <img class=" img img-fluid rounded rounded-circle bg-peach p-3 hover-big hover-gradient m-1 pointer" src="Images/DOG/TOYS/petstagescowdogtoy.png" alt="" data-bs-toggle="modal" data-bs-target="#petstagescowdogtoy">
+                </div>
+            </div>
+            <br><br>
+        </div>
+       
+     <div class="row">
+
+        <!-- Delivery and Support Start -->
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
+            <i class="fa-solid fa-parachute-box fa-3x"></i>
+            <h5>We Deliver Nationwide</h5>
+            <p>Shop Now!</p>
+        </div>
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
+            <i class="fa-solid fa-money-bill-wave fa-3x"></i>
+            <h5>Everyday Low Prices</h5>
+            <p>Enjoy Our Affordable Prices</p>
+        </div>
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
+            <i class="fa-solid fa-headset fa-3x"></i>
+            <h5>Top Notch Support</h5>
+            <p>Always Just a Call or Email Away</p>
+        </div>
+        <div class="seller-pitch col-12 col-md-6 col-lg-3 pt-4 pb-4 text-center bg-beige text-petblue">
+            <i class="fa-solid fa-shield-dog fa-3x"></i>
+            <h5>Secure Payment</h5>
+            <p>Through Mastercard, Visa, or Paypal</p>
+        </div>
+        <!-- Delivery and Support End -->
+    </div>
+<!-- Start of Footer -->
+    <br><br><br><br>
+    <footer class="bg-beige text-petblue text-center">
+            <!-- Grid container -->
+        <div class="container p-4">
+
+        <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <img src="logo1.png" alt="" class="w-100 mb-3">
+                    <p class="mb-2">Address: 123 Road, Cebu City, Cebu 6015</p>
+                    <p class="mb-2">Phone: +63 912 345 6789</p>
+                    <p class="mb-2">Email: wagntail@gmail.com</p>
+
+                <a href="#!" style="text-decoration: none;">
+                    <i class="bi bi-facebook me-2 hover-big pointer hover-petblue fa-2x"></i>
+                </a>
+                <a href="#!" style="text-decoration: none;">
+                    <i class="bi bi-instagram me-2 hover-big pointer hover-petblue fa-2x"></i>
+                </a>
+                <a href="#!" style="text-decoration: none;">
+                    <i class="bi bi-twitter me-2 hover-big pointer hover-petblue fa-2x"></i>
+                </a>
+            </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <br>
+                    <h5 class="text-uppercase">Popular Collections</h5>
+        
+                    <ul class="list-unstyled mb-0 ">
+                    <li class="hover-big pointer">
+                        <a href="#!" class="text-decoration-none hover-petblue">DOG SHOP</a>
+                    </li>
+                    <li class="hover-big pointer">
+                        <a href="#!" class="text-decoration-none hover-petblue">CAT SHOP</a>
+                    </li>
+                    <li class="hover-big pointer">
+                        <a href="#!"  class="text-decoration-none hover-petblue">FISH SHOP</a>
+                    </li>  
+                    <li class="hover-big pointer">
+                    <a href="#!"  class="text-decoration-none hover-petblue">SMALL & TERRARIUM ANIMALS</a>
+                </li>
+                
+                    </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <br>
+                <h5 class="text-uppercase">Help & Information</h5>
+
+                <ul class="list-unstyled mb-0">
+                    <li class="hover-big pointer" >
+                    <a href="#!" class="text-decoration-none hover-petblue">Contact Us</a>
+                </li>
+                <li class="hover-big pointer">
+                    <a href="#!" class="text-decoration-none hover-petblue">About Us</a>
+                </li>
+                <li class="hover-big pointer">
+                    <a href="#!" class="text-decoration-none hover-petblue">Terms & Conditions</a>
+                </li>
+                <li class="hover-big pointer">
+                    <a href="#!" class="text-decoration-none hover-petblue">Privacy Policy</a>
+                </li>
+                <li class="hover-big pointer">
+                    <a href="#!" class="text-decoration-none hover-petblue">Disclaimer</a>
+                </li>
+                </ul>
+            </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <br>
+                <h5 class="text-uppercase">Join our Newsletter Now!</h5>
+                <p>Get E-mail updates about our latest shop and special offers.</p>
+                    <form action="" class="input-group">
+                    <input type="email" class="form-control" placeholder="Enter Email Address"/>
+                    <button class="btn btn-petblue text-beige" type="button" >Subscribe</button>
+                    </form>
+                </div>
+                <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+            <!-- Copyright -->
+            <div class="text-center p-3 text-petblue">
+                © 2022 Copyright
+                
+            </div>
+            
+            
+            <!-- Copyright -->
+    </footer>
+ <!-- End of Footer -->
+   
+        <!-- Start of Modals -->
+        <!--START OF DRY FOOD -->
+        <div class="modal" id="acanadryfood1">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Acana Puppy Large Breed Recipe Grain-Free 11.4kg Dog Dry Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/acanadryfood1.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>MADE IN CANADA</li>
+                                                <li>For large breed puppies weighing 25 kg at maturity</li>
+                                                <li>Fresh Canadian chicken as first ingredient</li>
+                                                <li>Features a larger kibble size</li>
+                                                
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="mongespecialdryfood2">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Monge Special Dog Lamb & Rice 9kg Adult Dog Dry Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/mongespecialdryfood2.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Formulated for adult dogs of all breeds</li>
+                                                <li>Enriched with vitamins, minerals & antioxidant</li>
+                                                <li>With omega 3 & 6 for thick, shiny & healthy coat</li>
+                                                <li>High palatibility and highly digestible</li>
+                                                <li>Contains yucca schidigera to help reduce stool odor</li>
+                                                
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="acanadryfood2">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Acana Puppy Small Breed Recipe Grain-Free Dog Dry Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/acanadryfood2.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>MADE IN CANADA</li>
+                                                <li>Grain-free</li>
+                                                <li>NO artificial preservatives, flavors or colors</li>
+                                                <li>70% protein-rich animal ingredient</li>
+                                                <li>Chicken as 1st ingredient</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="mongespecial2dryfood2">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Monge Special Dog Lamb & Rice 9kg Puppy Dry Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/mongespecial2dryfood2.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>100% complete nutrition</li>
+                                                <li>Helps reduce stool odor</li>
+                                                <li>With calcium & phosphorus</li>
+                                                <li>Enriched with omega 3 & 6</li>
+                                                <li>High palatibilty and highly digestible</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="royalcanin2dryfood1">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Royal Canin Size Health Nutrition Maxi Starter Mother & Babydog 4kg Dog Dry Food
+                            </h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/royalcanin2dryfood1.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Best food supplement for lactating and gestating mothers</li>
+                                                <li>Promotes the digestive health of the new puppies</li>
+                                                <li>Improves immune system</li>
+                                                <li>Nutritional balanced formula present</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="royalcanin2dryfood2">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Royal Canin Size Health Nutrition Mini Starter Mother & Babydog Dog Dry Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/royalcanin2dryfood2.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Mini Starter Mother & Babydog is designed for small breed mothers from the end of gestation (3rd trimester) and during lactation and puppies up to 2 months.</li>
+                                                <li>100% complete & balanced nutrition</li>
+                                                <li>Kibble easily re-hydrated for puppies</li>
+                                                <li>Supports high energy needs of nursing mothers</li>
+                                                <li>Supports transition from mother's milk to solid food</li>
+                                                <li>Nutritional support for expecting mothers and her puppies</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--END OF DRY FOOD -->
+
+        <!-- START OF WET FOOD -->
+        <div class="modal" id="mongespecialwetfood1">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Monge Special Dog Pate with Lamb & Turkey 400g Dog Wet Food
+                            </h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/mongespecialwetfood1.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Special Dog Pate with Lamb & Turkey 400g.</li>
+                                                <li>Paté premium in Can with lamb and turkey, ideal for daily diet of all breeds adult dogs. Steam cooked, without preservatives and added sugar.</li>
+                                                <li>100% Made in Italy</li>
+                                                <li>NO Cruelty Test</li>
+                                                <li>Steam Cooked</li>
+                                                <li>NO Dyes & Preservatives</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="mongespecialwetfood2">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Monge Special Dog Pate with Lamb & Tripe 400g Dog Wet Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/mongespecialwetfood2.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Made in Italy</li>
+                                                <li>Steam cooked</li>
+                                                <li>100% single-protein</li>
+                                                <li>Without preservatives & added sugar</li>
+                                                <li>Ideal for adult dog of all breeds & sizes</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="pedigreewetfood1">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Pedigree Home Style Beef Recipe 400g Dog Wet Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/pedigreewetfood1.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Alert eyes and reflexes</li>
+                                                <li>Energy and proper digestion</li>
+                                                <li>Healthy skin and shiny coat</li>
+                                                <li>Strong muscles, teeth and bones</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="pedigreewetfood2">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Pedigree Home Style Chicken Recipe 400g Dog Wet Food</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/pedigreewetfood2.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Alert eyes and reflexes</li>
+                                                <li>Energy and proper digestion</li>
+                                                <li>Healthy skin and shiny coat</li>
+                                                <li>Strong muscles, teeth and bones</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--END OF WET FOOD -->
+
+        <!--START OF MILK-->
+        <div class="modal" id="petsownmilk">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Pets Own Dog & Puppy Lactose-Free Milk with Glucosamine 1L</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/petsownmilk.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>MADE IN AUSTRALIA</li>
+                                                <li>Strengthens teeth, bones and joints</li>
+                                                <li>Boosts immune system and increases cardiovascular strength</li>
+                                                <li>Regulates skin and coat</li>
+                                                <li>Improves eyesight</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="royalcaninmilk1">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Royal Canin Babydog Milk 400g with Nursing Kit</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/FOOD/royalcaninmilk1.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>For steady, harmonious growth, the composition of BABYDOG MILK is as close as possible to mother’s natural milk.</li>
+                                                <li>Available in 400g (4x100g sachets)</li>
+                                                <li>Complete milk replacer feed for puppies 0 - 2 months old</li>
+                                                <li>Nursing kit included (1 feeding bottle, 3 variable-flow teats, 1 measuring spoon)</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--END OF MILK -->
+
+        <!-- START OF TREATS-->
+        <div class="modal" id="awesomedogtreats">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Awesome Pawsome Bacon Mania Grain-Free 85g Dog Treats</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TREATS/awesomedogtreats.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>MADE IN NEW ZEALAND</li>
+                                                <li>Grain free</li>
+                                                <li>Made with real cheese</li>
+                                                <li>With added natural antioxidants</li>
+                                                <li>Irresistible taste</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="jerhighdogtreats">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Jerhigh Real Beef Stick 70g Dog Treats</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TREATS/jerhighdogtreats.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Maintain brain function</li>
+                                                <li>Helps boost metabolism</li>
+                                                <li>Loaded with essential vitamins</li>
+                                                <li>Rich, top quality protein sources</li>
+                                                <li>Helps boost muscle growth & healthy bones</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="pedigreedogtreats">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Pedigree DentaStix Puppy (3-12 months) 56g (7 Sticks) Dog Dental Treats
+                            </h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TREATS/pedigreedogtreats.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Helps reduce tartar build-up</li>
+                                                <li>Unique X-shape to clean in between the teeth & other hard-to-reach areas</li>
+                                                <li>Abrasive and chewy texture</li>
+                                                <li>Active ingredient: Zinc Sulphate and STPP</li>
+                                                <li>High calcium, low fat and no sugar added</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="pedigreerodeodogtreats">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Pedigree Rodeo Chicken and Liver 90g Dog Treats</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TREATS/pedigreerodeodogtreats.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Contains Vitamin A</li>
+                                                <li>High in protein</li>
+                                                <li>Low fat</li>
+                                                <li>With 2 meaty flavors: Chicken and liver</li>
+
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--END OF TREATS-->
+        
+        <!-- START OF CAGES, PENS & GATES-->
+        <div class="modal" id="ibiyayacollapsiblepetcarrier">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Ibiyaya Beige Collapsible Shoulder Pet Carrier</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/CRATES, PENS & GATES/ibiyayacollapsiblepetcarrier.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Ideal for small breeds</li>
+                                                <li>Maximum weight capacity of 6kg</li>
+                                                <li>Water proof and collapsible for easy storage</li>
+                                                <li>Diaper friendly design: Easy attach to the removable mat</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="outwarddogbackpack">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>DISCOUNTED Outward Hound DayPak Blue Dog Backpack</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/CRATES, PENS & GATES/outwarddogbackpack.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>NOTE: Product has detached inner strap</li>
+                                                <li>With 4 expandable pockets and D-ring leash attachment</li>
+                                                <li>Adjustable straps and breathable mesh harness for maximum comfort and fit</li>
+                                                <li>Reflective accents to enhance visibility</li>
+                                                <li>Helps focus your dog's energy and attention</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="outwardpetcarrier">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Outward Hound PoochPouch Gray Backpack Pet Carrier</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/CRATES, PENS & GATES/outwardpetcarrier.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Padded air mesh straps and back for comfort while carrying</li>
+                                                <li>Removable bottom pouch pad for a comfortable ride</li>
+                                                <li>Water resistant nylon fabric is soft and durable</li>
+                                                <li>Safety harness attachment and zippered top for added durability</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="pettoaicollapsiblepetcage">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Petto Ai Collapsible Pet Cage - BLUE</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/CRATES, PENS & GATES/pettoaicollapsiblepetcage.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Folds like a suitcase for easy transport</li>
+                                                <li>Close wire spacing for strength & stability</li>
+                                                <li>With a removable plastic tray for easy cleaning</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="pettravelcratecarrier">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Pet Travel Crate Carrier 66cm L x 47cm W x 45.8cm H</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/CRATES, PENS & GATES/pettravelcratecarrier.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Airline approved!</li>
+                                                <li>Colors may vary</li>
+                                                <li>Includes crate tray & a small bowl</li>
+                                                <li>Ventilation on all 4 sides to keep your pet comfortable</li>
+                                                <li>Top & bottom part is secured with stainless steel screws </li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--END OF CAGES, PENS & GATES-->
+
+         <!-- START OF HEALTHCARE-->
+         <div class="modal" id="goldmedalshampoo">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Gold Medal Pets Flea & Tick 500ml Dogs and Cats Shampoo</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/HEALTHCARE/goldmedalshampoo.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>For dogs & cats</li>
+                                                <li>Kills fleas, ticks & lice</li>
+                                                <li>Rich in coconut conditioners</li>
+                                                <li>Helps add luster & groomability</li>
+
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="lcvitmultivitamins">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>LC Vit Multivitamins Syrup 120ml</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/HEALTHCARE/lcvitmultivitamins.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Prevents & treats vitamin deficiencies</li>
+                                                <li>Helps improve appetite & general health</li>
+                                                <li>Multivitamins for dogs, cats, rabbits, hamsters & chinchilla</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="papienmalacpetsupplement">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Papi Enmalac Milk Enhancer 120ml Pet Supplement</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/HEALTHCARE/papienmalacpetsupplement.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Helps increase milk production</li>
+                                                <li>Loaded with vitamins & minerals</li>
+                                                <li>Contains full nutritional needs of lactating mother</li>
+                                                <li>Made with malunggay, kangkong and green algae</li>
+                                                <li>Contains anti-scouring formula for fast growing and healthy offspring</li>
+                                                
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="virbacpetsupplement">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Virbac Nutri-plus Gel 120.5g Nutritional Pet Supplement</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/HEALTHCARE/virbacpetsupplement.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Growing puppies & kittens</li>
+                                                <li>Pregnant of lactating dogs & cats</li>
+                                                <li>Maintenance of healthy skin & coat</li>
+                                                <li>Nutritional supplement for adult dogs & cats</li>
+                                                <li>Convalescent pets (after infectious disease, surgery, etc)</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- END OF HEALTHCARE -->
+
+        <!-- START OF TOYS-->
+        <div class="modal" id="kongdogtoy">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Kong SqueakAir Happy Birthday Balls Dog Toy</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TOYS/kongdogtoy.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Pack of 3's</li>
+                                                <li>Perfect for games of fetch</li>
+                                                <li>Squeaker to induce play</li>
+                                                <li>Non-abrasive tennis material will not wear down your dog's teeth</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="michikodogtoy">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Michiko Small Squeak Bone Dog Toy</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TOYS/michikodogtoy.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Colors may vary</li>
+                                                <li>Made of durable rubber</li>
+                                                <li>Textured to clean dog's teeth</li>
+                                                <li>Built-in squeaker</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="outwarddogtoy">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Outward Hound Hedgehogz Dog Toy</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TOYS/outwarddogtoy.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>Minimal seams and soft faux-fur</li>
+                                                <li>Loveable, huggable and durable fun</li>
+                                                <li>Irresistible noisemakers</li>
+                                                <li>Durably designed with an engaging array of shapes, sounds and textures</li>
+                                                <li>X-Large & Large have grunty noisemakers</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="modal" id="petstagescowdogtoy">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header bg-peach">
+                            <h2>Petstages Charming Pet Cuddle Tugs Cow Dog Toy</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                    <!-- EDIT THE IMAGE -->
+                                    <img src="Images/DOG/TOYS/petstagescowdogtoy.png" class="card-img-top">
+                            </div>
+                            <br><br>
+                            <!-- Accordion Description -->
+                            <div class="accordion">
+                                <div class="accordion-item bg-beige">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button bg-peach hover-gradient-peach text-petblue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1">
+                                        PRODUCT DESCRIPTION
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <ul>
+                                                <li>With 2 squeaker pads</li>
+                                                <li>Designed for tug-of-war fun</li>
+                                                <li>Extends up to 26 inches (66cm)</li>
+                                                <li>Multiple sensory textures</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion Description -->
+                        </div>
+                        <div class="modal-footer bg-peach">
+                            <button class="btn btn-petblue text-beige">
+                                Add to Cart 
+                            </button>
+                            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+                            <button class="btn btn-outline-petblue text-beige" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- END OF TOYS -->
+
+        <!-- End of Modals -->
+</body>

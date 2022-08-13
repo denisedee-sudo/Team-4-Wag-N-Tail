@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css\main.min.css">    
+    <link rel="stylesheet" href="Custom.css">
+    <title>Wag N Tail</title>
+</head>
+<body class="container-fluid">
+    <!-- Javascript start -->
+    <script src="bootstrap.bundle.js"></script>
+    <!-- Javascript end -->
+    <!-- start of navbar -->
+    <nav class="navbar bg-beige fixed-top">
+        <a href="index.html"><img src="logo1.png"  class="navbar-brand hover-big" style="max-width:300px;" alt="Wag N Tail"></a>
+        <form class="input-group p-2 m-1 ms-3 invisible-xs"  style="max-width:450px;" action="">
+            <input class="form-control" type="text" placeholder="Search here">
+            <button class="btn btn-petblue text-beige "><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </form>
+        <i class="fa-solid fa-cart-shopping hover-big pointer hover-petblue fa-3x"></i>
+        <button class="navbar-toggler border border-2 btn btn-peach m-1 me-3" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="navbar-toggler-icon text-white p-3"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav bg-beige text-petblue text-center">
+                <li class="nav-item">
+                    <!-- <a class="hover-big hover-gradient nav-link p-1 active text-petblue" href="#heroSection"> <h3>Home</h3> </a> -->
+                    <a class="hover-big hover-gradient nav-link p-1 active text-petblue" href="index.html#heroSection"> <h3>Home <i class="fa-solid fa-paw"></i></h3> </a>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="dogshop.html" id="dropDownDog" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Dogs  <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach text-center" aria-labelledby="dropDownDog">
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Food</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#dryfood"><h4>Dog Food</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Toys</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#toys"><h4>Dog Toys</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Accessories</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#cratespensgates"><h4>Dog Accessories</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Dog Grooming</h4></a> -->
+                            <a class="dropdown-item " href="dogshop.html#healthcare"><h4>Dog Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="catshop.html" id="dropDownCat" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Cats <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownCat">
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Food</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#catfood"><h4>Cat Food</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Toys</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#toys"><h4>Cat Toys</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Accessories</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#accessories"><h4>Cat Accessories</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Cat Grooming</h4></a> -->
+                            <a class="dropdown-item " href="catshop.html#grooming"><h4>Cat Grooming</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="fishshop.html" id="dropDownFish" data-bs-toggle="dropdown">
+                        <h3 class=" text-petblue">Fish <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownFish">
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Fish Food</h4></a> -->
+                            <a class="dropdown-item " href="fishshop.html#fishfood"><h4>Fish Food</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Fish Toys</h4></a> -->
+                            <a class="dropdown-item " href="fishshop.html#aquariums"><h4>Fish Aquariums</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Fish Accessories</h4></a> -->
+                            <a class="dropdown-item " href="fishshop.html#others"><h4>Fish Others</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown p-1">
+                    <a class="nav-link dropdown hover-big hover-gradient" href="smallanimals.html" id="dropDownSmall and Terrarium Animals" data-bs-toggle="dropdown">
+                        <h3 class="text-petblue">Small and Terrarium Animals <i class="fa-solid fa-angle-down"></i></h3>
+                    </a>                
+                    <ul class="dropdown-menu dropdown-menu-peach  text-center" aria-labelledby="dropDownSmall and Terrarium Animals">
+                        <li>
+                            <!-- <a class="dropdown-item" href="#"><h4>Food</h4></a> -->
+                            <a class="dropdown-item" href="smallanimals.html#birds"><h4>Birds</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Toys</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#guineapig"><h4>Guinea Pig</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Accessories</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#hamster"><h4>Hamster</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Grooming</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#mouse"><h4>Mouse</h4></a>
+                        </li>
+                        <li>
+                            <!-- <a class="dropdown-item " href="#"><h4>Grooming</h4></a> -->
+                            <a class="dropdown-item " href="smallanimals.html#rabbit"><h4>Rabbit</h4></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-auto d-block d-sm-none">
+                    <!-- Search bar -->
+                    <form class="input-group p-1 m-1" style="max-width:400px" action="">
+                        <input class="form-control" type="text" placeholder="Search here">
+                        <button class="btn btn-petblue"><i class="fa-solid fa-magnifying-glass"></i>  Search </button>
+                    </form>
+                    <!-- Search bar -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <br><br><br><br>
+    <div class="row text-petblue pt-5">
+        <h1 class="text-center pb-4 pt-5  col-12">Browse by Brand</h1>
+        <h3 class="text-center pb-3">
+            <a class="text-decoration-none p-2 text-petblue" href="#acana">A</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#beaphar">B</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#chudleys">C</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#frisco">D</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#frisco">E</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#frisco">F</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#gold-medal">G</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#HDP">H</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#ibiyaya">I</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#jerhigh">J</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#K&H">K</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#LC-Vit">L</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#marine-lab">M</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#nutrilogic">N</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#papi-enmalac">O</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#papi-enmalac">P</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#royal-canin">Q</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#royal-canin">R</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#saint-gertie">S</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#tidy-cats">T</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#van-ness">U</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#van-ness">V</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#wagg">W</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#zeze">X</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#zeze">Y</a>
+            <a class="text-decoration-none p-2 text-petblue" href="#zeze">Z</a>
+        </h3>
+        <div class="bg-beige">
+            <h2 id="acana" class="text-center pt-4 pb-4 col-12">
+                Acana
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center ">
+                    <img id="acanadryfood1" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\DOG\FOOD\acanadryfood1.png" alt="">
+                    <img id="acanadryfood2" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\DOG\FOOD\acanadryfood2.png" alt="">
+                    <img id="acana2dryfood2" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer"  src="Images\DOG\FOOD\acana2dryfood2.png" alt="">
+                    <img id="acana3dryfood1" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer"  src="Images\DOG\FOOD\acana3dryfood1.png" alt="">
+                    <img id="acana3dryfood2" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer"  src="Images\DOG\FOOD\acana3dryfood2.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div>
+            <h2 id="arm-n-hammer-litter" class="text-center pt-5 pb-5 col-12">
+                Arm & Hammer Litter
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+
+                    <img 2 class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\CAT\Accessories\Bundle Whisker Litter-Robot 3 WiFi Enabled Automatic Self.png" alt="">
+                    
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="awesome-pawsome" class="text-center pt-4 pb-4 col-12">
+                Awesome Pawsome
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="awesome_Dog" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\DOG\TREATS\awesomedogtreats.png" alt="Awesome Pawsome">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="beaphar" class="text-center pt-4 pb-4 col-12">
+                Beaphar
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="Care+HamsterFood" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\SMALL ANIMALS\HAMSTER\Beaphar Care+ Hamster Food - 700g.png" alt="">
+                    <img id="Care+RatFood" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\SMALL ANIMALS\MOUSE\Beaphar Care+ Rat Food.png" alt="">
+                    <img id="Xtra-VitalRatFood" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\SMALL ANIMALS\MOUSE\Beaphar Xtra-Vital Rat Food.png" alt="">
+                    <img id="Care+JuniorRabbit" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid  m-1 bg-peach pointer" src="Images\SMALL ANIMALS\RABBIT\Beaphar Care+ Junior Rabbit - 1.5kg.png" alt="">
+                    <img id="BeapharCare+Rabbit" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid  m-1 bg-peach pointer" src="Images\SMALL ANIMALS\RABBIT\Beaphar Care+ Rabbit - 1.5kg.png" alt="">
+                    <img id="Care+SeniorRabbit" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid  m-1 bg-peach pointer" src="Images\SMALL ANIMALS\RABBIT\Beaphar Care+ Senior Rabbit.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="bucktons" class="text-center pt-4 pb-4 col-12">
+                Bucktons
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="mx-auto text-center">
+                    <!-- Need division -->
+                    <img id="CockatielMix" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid bg-peach pointer" src="Images\SMALL ANIMALS\BIRDS\Buckton-Cockatiel-Mix-20kg-Bird-Food_1.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="burgess-excel" class="text-center pt-4 pb-4 col-12">
+                Burgess Excel
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block g-2 mx-auto text-center">
+                    <!-- Need division -->
+                    <div class="col-1"></div>
+                    <img id="ExcelRatNuggets" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\SMALL ANIMALS\MOUSE\Burgess Excel Rat Nuggets Food Mix - 1.5kg.png" alt="Burgess-Excel">
+                    <img id="ExcelAdult" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\SMALL ANIMALS\GUINEA PIG\Burgess Excel Adult Guinea Pig Nuggets With Mint Front.png" alt="Burgess-Excel">
+                    <img id="CountryValue" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\SMALL ANIMALS\GUINEA PIG\Burgess Guinea Pig - Country Value Fun Fruity Mix Nuggets 10kg.png" alt="Burgess-Excel">
+                    <div class="col-1"></div>
+                </div>
+            </section><div class="col-1"></div>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="chudleys" class="text-center pt-4 pb-4 col-12">
+                Chudleys
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="RoyaleRabbit" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\SMALL ANIMALS\RABBIT\Chudleys Rabbit Royale Rabbit Food - 14kg.png" alt="chudleys">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="frisco" class="text-center pt-4 pb-4 col-12">
+                Frisco
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block g-2 mx-auto text-center">
+                    <div class="col-1"></div>
+                    <img id="FauxFurCat" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-2 m-1 bg-peach pointer" src="Images\CAT\Toys\Frisco 61-in Faux Fur Cat Tree & Condo(1).png" alt="Frisco">
+                    <img id="ExcelAdultGuineaPig" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Toys\Frisco Sushi Plush Cat Toy with Catnip, Small, 4 count(1).png" alt="Frisco">
+                    <img id="ExcelAdultGuineaPig" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Accessories\Frisco Cat Face Non-skid Ceramic Cat Dish, Blue, 0.50 Cup front.png" alt="Frisco">
+                    <div class="col-1"></div>
+                </div>
+            </section><div class="col-1"></div>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="gold-medal" class="text-center pt-4 pb-4 col-12">
+                Gold Medal
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="PetsFlea"class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Grooming\Gold_Medal_Pets_Flea___Tick_500ml_Dogs_and_Cats_Shampoo-removebg-preview.png" alt="Gold Medal">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="HDP" class="text-center pt-4 pb-4 col-12">
+                HDP
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="AssortedCatnip" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Toys\HDP_Grab_Bag_Assorted_Catnip_Cat_Toys__24_count-removebg-preview.png" alt="HDP">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="ibiyaya" class="text-center pt-4 pb-4 col-12">
+                Ibiyaya
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="ibiyayacarrier" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\CRATES, PENS & GATES\ibiyayacollapsiblepetcarrier.png" alt="Ibiyaya">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="instachew" class="text-center pt-4 pb-4 col-12">
+                Instachew
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="instachewPurchase" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Toys\INSTACHEW_PureChase_Smart_Mouse_Cat_Toy_1_-removebg-preview.png" alt="Instachew">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="jerhigh" class="text-center pt-4 pb-4 col-12">
+                Jerhigh
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="jerhigh_dog" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\TREATS\jerhighdogtreats.png" alt="Jerhigh">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="K&H" class="text-center pt-4 pb-4 col-12">
+                K&H
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="K&H_Pet" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Accessories\K&H Pet Products Self-Warming Hut Cat Bed.png" alt="K&H">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="koi-crystals" class="text-center pt-4 pb-4 col-12">
+                Koi Crystals
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="koi_crystal" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\FISH\koicrystalsaquariumsalt1-removebg-preview.png" alt="Koi Crystals">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="LC-Vit" class="text-center pt-4 pb-4 col-12">
+                LC-Vit
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="lc_vit" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\HEALTHCARE\lcvitmultivitamins.png" alt="LC-Vit">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="litter-one" class="text-center pt-4 pb-4 col-12">
+                Litter One
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="BiodegradableDisposable" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Accessories\Litter_One_Biodegradable_Disposable_Cat_Litter_Box_Kit_1_-removebg-preview.png" alt="Litter One">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="litter-robot" class="text-center pt-4 pb-4 col-12">
+                Litter-robot
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="Litter_robot_Cat_Silo" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-1 m-1 bg-peach pointer" src="Images\CAT\Accessories\Litter-robot Cat Silo.png" alt="Litter-robot">
+                    <img id="Litter-Robot3" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\CAT\Accessories\Bundle_Whisker_Litter-Robot_3_WiFi_Enabled_Automatic_Self-Cleaning_Cat.png">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="marine-lab" class="text-center pt-4 pb-4 col-12">
+                Marine Lab
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="marine_salt" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\FISH\marinesaltwatermix-removebg-preview.png" alt="Marine Lab">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="michiko" class="text-center pt-4 pb-4 col-12">
+                Michiko
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="michikotoy" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\TOYS\michikodogtoy.png" alt="Michiko">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="monge-special" class="text-center pt-4 pb-4 col-12">
+                Monge Special
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="MongeSpecial1" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\FOOD\mongespecial2dryfood1.png" alt="Monge Special">
+                    <img id="MongeSpecial2" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\FOOD\mongespecialdryfood1.png" alt="Monge Special">
+                    <img id="MongeSpecial3" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\FOOD\mongespecialwetfood1.png" alt="Monge Special">
+                    <img id="MongeSpecial4" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\FOOD\mongespecialwetfood2.png" alt="Monge Special">
+                    <img id="MongeSpecial5" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach pointer" src="Images\DOG\FOOD\mongespecialdryfood2.png" alt="Monge Special">
+                    <!-- need image on Monge Special -->
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="nutrilogic" class="text-center pt-4 pb-4 col-12">
+                Nutrilogic
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img id="nutrilogic_fish" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\FISH\nutrilogicfishfood1-removebg-preview.png" alt="Nutrilogic">
+                    <img id="nutrilogic_pellets" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\FISH\nutrilogicpelletsfishfood-removebg-preview.png" alt="Nutrilogic">
+                    <img id="nutrilogic2" class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach pointer" src="Images\FISH\nutrilogicsinkingfishfood-removebg-preview.png" alt="Nutrilogic">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="papi-enmalac" class="text-center pt-4 pb-4 col-12">
+                Papi Enmalac
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach" src="Images\DOG\HEALTHCARE\papienmalacpetsupplement.png" alt="Papi Enmalac">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="peckish" class="text-center pt-4 pb-4 col-12">
+                Peckish
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach" src="Images\SMALL ANIMALS\BIRDS\Peckish Complete Seed & Nut No Mess Wild Bird Food - 20kg.png" alt="Peckish">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach" src="Images\SMALL ANIMALS\BIRDS\Peckish 60051109 Sunflower Seeds for Wild Birds, 1.25 kg, Black.png" alt="Peckish">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach" src="Images\SMALL ANIMALS\BIRDS\Peckish Squirrel Proof Pellets Bird Food - 1kg.png" alt="Peckish">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid p-3 m-1 bg-peach" src="Images\SMALL ANIMALS\BIRDS\Peckish Extra Goodness Energy Fat Balls Bird Food- 50 Pack.png" alt="Peckish">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="pedigree" class="text-center pt-4 pb-4 col-12">
+                Pedigree
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach" src="Images\DOG\FOOD\pedigreewetfood1.png" alt="Pedigree">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach" src="Images\DOG\FOOD\pedigreewetfood2.png" alt="Pedigree">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach" src="Images\DOG\TREATS\pedigreedogtreats.png" alt="Pedigree">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid m-1 bg-peach" src="Images\DOG\TREATS\pedigreerodeodogtreats.png" alt="Pedigree">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="pets-own" class="text-center pt-4 pb-4 col-12">
+                Pets Own
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 pointer hover-big hover-gradient rounded-circle img-fluid p-2 m-1 bg-peach" src="Images\DOG\FOOD\petsownmilk.png" alt="Pets Own">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="petsafe" class="text-center pt-4 pb-4 col-12">
+                PetSafe
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\CAT\Accessories\PetSafe Healthy Pet Food Station Gravity Refill Dog & Cat Feeder thumbnail.png" alt="PetSafe">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="royal-canin" class="text-center pt-4 pb-4 col-12">
+                Royal Canin
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\DOG\FOOD\royalcanin2dryfood1.png" alt="Royal Canin">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\DOG\FOOD\royalcanindryfood1.png" alt="Royal Canin">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\DOG\FOOD\royalcanin2dryfood2.png" alt="Royal Canin">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\DOG\FOOD\royalcaninmilk1.png" alt="Royal Canin">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\CAT\Food\Royal_Canin_Feline_Breed_Nutrition_Persian_Kitten_Dry_Food-removebg-preview.png" alt="Royal Canin">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\CAT\Food\Royal_Canin_Feline_Health_Nutrition_Adult_Instinctive_85g_Cat_Wet_Food-removebg-preview.png" alt="Royal Canin">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="saint-gertie" class="text-center pt-4 pb-4 col-12">
+                Saint Gertie
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer p-3 m-1 bg-peach" src="Images\CAT\Grooming\Saint_Gertie_Premium_Organic_Cat_Shampoo_Mother_Nature_1050mL-removebg-preview.png" alt="Saint Gertie">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="sea-quest" class="text-center pt-4 pb-4 col-12">
+                Sea Quest
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle pointer img-fluid m-1 bg-peach" src="Images\FISH\AQUARIUM1-removebg-preview.png" alt="Sea Quest">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle pointer img-fluid m-1 bg-peach" src="Images\FISH\AQUARIUM2-removebg-preview.png" alt="Sea Quest">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="supreme-petfoods" class="text-center pt-4 pb-4 col-12">
+                Supreme Petfoods
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\SMALL ANIMALS\HAMSTER\Supreme Selective Hamster Food - 350g.png" alt="Supreme Petfoods">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\SMALL ANIMALS\MOUSE\Supreme Science Selective Rat Food - 1.5kg.png" alt="Supreme Petfoods">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\SMALL ANIMALS\GUINEA PIG\Supreme Gerty Guinea Pig Complete Muesli 12.5 kg Front large.png" alt="Supreme Petfoods">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\SMALL ANIMALS\GUINEA PIG\Supreme Science Selective Guinea Pig Food front.png" alt="Supreme Petfoods">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="tidy-cats" class="text-center pt-4 pb-4 col-12">
+                Tidy Cats
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer p-1 m-1 bg-peach" src="Images\CAT\Accessories\Tidy Cats Free & Clean Unscented Clumping Clay Cat Litter front.png" alt="Tidy Cats">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="van-ness" class="text-center pt-4 pb-4 col-12">
+                Van Ness
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer p-1 m-1 bg-peach" src="Images\CAT\Accessories\Van Ness Litter Scoop.png" alt="Van Ness">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="virbac" class="text-center pt-4 pb-4 col-12">
+                Virbac
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointerm-1 bg-peach" src="Images\DOG\HEALTHCARE\virbacpetsupplement.png" alt="Virbac">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="wagg" class="text-center pt-4 pb-4 col-12">
+                Wagg
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\SMALL ANIMALS\GUINEA PIG\Wagg Twitch Guinea Pig Crunch Food - 10kg.png" alt="Wagg">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="whisker-city" class="text-center pt-4 pb-4 col-12">
+                Whisker City
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\CAT\Accessories\Whisker_City__Bolster_Cat_Bed_G_-removebg-preview.png" alt="Whisker City">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="bg-beige">
+            <h2 id="wildwash" class="text-center pt-4 pb-4 col-12">
+                WildWash
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer p-3 m-1 bg-peach" src="Images\CAT\Grooming\WildWash_Natural_Pet_Care_300ml_Cat_Shampoo-removebg-preview.png" alt="WildWash">
+                </div>
+            </section>
+        </div>
+        <!-- break -->
+        <div class="">
+            <h2 id="zeze" class="text-center pt-4 pb-4 col-12">
+                ZEZE
+            </h2> 
+            <section class="col-12 pb-5">
+                <div class="d-block mx-auto text-center">
+                    <img class="col-4 col-lg-2 hover-big hover-gradient rounded-circle img-fluid pointer m-1 bg-peach" src="Images\CAT\Toys\Edited-Toys\ZEZE_Lovely___Delicate_Forest_Snake_Tease_Wand_Cat_Toy-removebg-preview.png" alt="ZEZE">
+                </div>
+            </section>
+        </div>
+    </div>
+<!--Start of Footer -->
+<br><br><br><br>
+<footer class="bg-beige text-petblue text-center">
+        <!-- Grid container -->
+    <div class="container p-4">
+   
+    <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <img src="logo1.png" alt="" class="w-100 mb-3">
+                 <p class="mb-2">Address: 123 Road, Cebu City, Cebu 6015</p>
+                 <p class="mb-2">Phone: +63 912 345 6789</p>
+                 <p class="mb-2">Email: wagntail@gmail.com</p>
+
+               <a href="#!" style="text-decoration: none;">
+                   <i class="bi bi-facebook me-2 hover-big pointer hover-petblue fa-2x"></i>
+               </a>
+               <a href="#!" style="text-decoration: none;">
+                   <i class="bi bi-instagram me-2 hover-big pointer hover-petblue fa-2x"></i>
+               </a>
+               <a href="#!" style="text-decoration: none;">
+                   <i class="bi bi-twitter me-2 hover-big pointer hover-petblue fa-2x"></i>
+               </a>
+           </div>
+
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <br>
+                <h5 class="text-uppercase">Popular Collections</h5>
+    
+                <ul class="list-unstyled mb-0 ">
+                <li class="hover-big pointer">
+                    <a href="#!" class="text-decoration-none hover-petblue">DOG SHOP</a>
+                </li>
+                <li class="hover-big pointer">
+                    <a href="#!" class="text-decoration-none hover-petblue">CAT SHOP</a>
+                </li>
+                <li class="hover-big pointer">
+                    <a href="#!"  class="text-decoration-none hover-petblue">FISH SHOP</a>
+                </li>  
+                <li class="hover-big pointer">
+                   <a href="#!"  class="text-decoration-none hover-petblue">SMALL & TERRARIUM ANIMALS</a>
+               </li>
+               
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <br>
+               <h5 class="text-uppercase">Help & Information</h5>
+   
+               <ul class="list-unstyled mb-0">
+                <li class="hover-big pointer" >
+                   <a href="#!" class="text-decoration-none hover-petblue">Contact Us</a>
+               </li>
+               <li class="hover-big pointer">
+                   <a href="#!" class="text-decoration-none hover-petblue">About Us</a>
+               </li>
+               <li class="hover-big pointer">
+                   <a href="#!" class="text-decoration-none hover-petblue">Terms & Conditions</a>
+               </li>
+               <li class="hover-big pointer">
+                   <a href="#!" class="text-decoration-none hover-petblue">Privacy Policy</a>
+               </li>
+               <li class="hover-big pointer">
+                   <a href="#!" class="text-decoration-none hover-petblue">Disclaimer</a>
+               </li>
+               </ul>
+           </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <br>
+               <h5 class="text-uppercase">Join our Newsletter Now!</h5>
+               <p>Get E-mail updates about our latest shop and special offers.</p>
+                <form action="" class="input-group">
+                   <input type="email" class="form-control" placeholder="Enter Email Address"/>
+                   <button class="btn btn-petblue text-beige" type="button" >Subscribe</button>
+                </form>
+            </div>
+            <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3 text-petblue">
+            © 2022 Copyright
+            
+        </div>
+        
+        
+        <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
