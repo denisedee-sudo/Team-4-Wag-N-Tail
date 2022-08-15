@@ -20,7 +20,7 @@
         <div class="col-4"></div>
     </div>
     <!-- Cart Modal Start  -->
-    <div class="modal" id="cart">
+    <div class="modal" id="cart" >
         <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
             <div class="modal-content">
                 <div class="modal-header bg-peach">
@@ -97,7 +97,7 @@
                     <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
                         Close
                     </button>
-                    <button class="btn btn-petblue" data-bs-target="#payment">
+                    <button class="btn btn-petblue" data-bs-target="#payment" data-bs-toggle="modal">
                         Checkout
                     </button>
                 </div>
@@ -106,7 +106,7 @@
     </div>
     <!-- Cart Modal End  -->
     <!-- Payment Modal Start  -->
-    <div class="modal" id="paymennt">
+    <div class="modal" id="payment" >
         <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
             <div class="modal-content">
                 <div class="modal-header bg-peach">
@@ -116,16 +116,36 @@
                     <h1>Hello!</h1>
                 </div>
                 <div class="modal-footer bg-peach">
-                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button class="btn btn-petblue" data-bs-target="#cart">
+                    <button class="btn btn-petblue" data-bs-target="#cart" data-bs-toggle="modal">
                         I Forgot Something
+                    </button>
+                    <button class="btn btn-petblue" data-bs-target="#thanks" data-bs-toggle="modal">
+                        Done
                     </button>
                 </div>
             </div>
         </div>
     </div>
     <!-- Payment Modal  End  -->
+    <!-- Thanks Modal Start -->
+    <div class="modal" id="thanks" >
+        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
+            <div class="modal-content">
+                <div class="modal-header bg-peach">
+                    <h1>You'll get your order soon!</h1>
+                </div>
+                <div class="modal-body container-fluid bg-beige text-center">
+                    <h3>Thank you for shopping with us!</h3>
+                    <h3>We hope to see you again soon</h3>
+                </div>
+                <div class="modal-footer bg-beige">
+                    <button class="btn btn-petblue" data-bs-dismiss="modal">
+                        Goodbye!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Thanks Modal End  -->
 </body>
 </html>
