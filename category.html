@@ -22,7 +22,7 @@
     <!-- Cart Modal Start  -->
     <div class="modal" id="cart" >
         <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
-            <div class="modal-content">
+            <div class="modal-content text-petblue">
                 <div class="modal-header bg-peach">
                     <h2>Shopping Cart</h2>
                 </div>
@@ -34,14 +34,14 @@
                         <div class="col-6 col-lg-3 product-description">
                             <h4 class="pt-4">Bundle Whisker Litter-Robot 3 WiFi Enabled Automatic Self-Cleaning Cat Litter</h4>
                         </div>
-                        <div class="col-6 col-lg-2 product-quantity text-center">
+                        <div class="col-5 col-lg-2 product-quantity text-center">
                             <h4 class="pt-5">
                             <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
                                 1
                             <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
                             </h4>
                         </div>
-                        <div class="col-6 col-lg-4 product-price">
+                        <div class="col-7 col-lg-4 product-price">
                             <h2 class="pt-5 text-end">Php 38,579.00</h2>
                         </div>
                     </div>
@@ -52,14 +52,14 @@
                         <div class="col-6 col-lg-3 product-description">
                             <h4 class="pt-4">Frisco 61-in Faux Fur Cat Tree & Condo</h4>
                         </div>
-                        <div class="col-6 col-lg-2 product-quantity text-center">
+                        <div class="col-5 col-lg-2 product-quantity text-center">
                             <h4 class="pt-5">
                             <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
                                 1
                             <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
                             </h4>
                         </div>
-                        <div class="col-6 col-lg-4 product-price">
+                        <div class="col-7 col-lg-4 product-price">
                             <h2 class="pt-5 text-end">Php 4,654.00</h2>
                         </div>
                     </div>
@@ -83,12 +83,12 @@
                     </div>
                     <hr>
                     <div class="row subtotal">
-                        <div class="col-6 product-image"></div>
-                        <div class="col-2 product-price text-end subtotal">
+                        <div class="col-2 col-lg-6 product-image"></div>
+                        <div class="col-2 col-lg-2 product-price text-end subtotal">
                             <h4>Subtotal</h4>
                             <p>3 Items</p>
                         </div>
-                        <div class="col-4 product-price text-end">
+                        <div class="col-8 col-lg-4 product-price text-end">
                             <h2>Php 44,235.00</h2>
                         </div>
                     </div>
@@ -108,12 +108,73 @@
     <!-- Payment Modal Start  -->
     <div class="modal" id="payment" >
         <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
-            <div class="modal-content">
+            <div class="modal-content text-petblue">
                 <div class="modal-header bg-peach">
                     <h2>Checkout</h2>
                 </div>
                 <div class="modal-body container-fluid">
-                    <h1>Hello!</h1>
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10 bg-beige rounded">
+                            <h3 class="text-center pt-2 pb-2">Address</h3>
+                            <br>
+                            <h4 class="text-start p-2">
+                                11th Floor, W City Center, 7th Ave, Taguig, 1630 Metro Manila
+                            </h4>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+                    <!-- break  -->
+                    <div class="row pb-3">
+                        <div class="col-1"></div>
+                        <div class="col-10 rounded">
+                            <h3 class="text-center pt-4">Payment Method</h3>
+                            <br>
+                            <div class="d-grid">
+                                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                                <label class="btn btn-outline-petblue m-1" for="option1">
+                                    Credit/Debit Card
+                                    <i class="fa-brands fa-cc-amex"></i>
+                                    <i class="fa-brands fa-cc-mastercard"></i>
+                                    <i class="fa-brands fa-cc-visa"></i>
+                                    <i class="fa-brands fa-cc-jcb"></i>
+                                </label>
+                                <!-- break  -->
+                                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                                <label class="btn btn-outline-petblue m-1" for="option2">
+                                    PayPal
+                                    <i class="fa-brands fa-paypal"></i>
+                                </label>
+                                <!-- break  -->
+                                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                                <label class="btn btn-outline-petblue m-1" for="option1">
+                                    GCash
+                                </label>
+                                <!-- break  -->
+                                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                                <label class="btn btn-outline-petblue m-1" for="option2">GrabPay</label>
+                                <!-- break  -->
+                                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                                <label class="btn btn-outline-petblue m-1" for="option1">PayMaya</label>
+                                <!-- break  -->
+                                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                                <label class="btn btn-outline-petblue m-1" for="option2">Coins.PH</label>
+                            </div>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+                    <!-- break  -->
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10 bg-beige rounded">
+                            <h3 class="text-center pt-2 pb-2">Checkout Summary</h3>
+                            <br>
+                            <h4 class="text-end p-2">
+                                Php 44,235.00
+                            </h4>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
                 </div>
                 <div class="modal-footer bg-peach">
                     <button class="btn btn-petblue" data-bs-target="#cart" data-bs-toggle="modal">
@@ -129,12 +190,12 @@
     <!-- Payment Modal  End  -->
     <!-- Thanks Modal Start -->
     <div class="modal" id="thanks" >
-        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
-            <div class="modal-content">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content text-petblue">
                 <div class="modal-header bg-peach">
                     <h1>You'll get your order soon!</h1>
                 </div>
-                <div class="modal-body container-fluid bg-beige text-center">
+                <div class="modal-body container-fluid bg-beige text-center pt-5">
                     <h3>Thank you for shopping with us!</h3>
                     <h3>We hope to see you again soon</h3>
                 </div>
