@@ -383,201 +383,310 @@
     </footer>
 <!-- Footer -->
 <!-- Start of Modals -->
-    <!-- Cart Modal Start  -->
-    <div class="modal" id="cart" >
-        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
-            <div class="modal-content text-petblue">
-                <div class="modal-header bg-peach">
-                    <h2>Shopping Cart</h2>
-                </div>
-                <div class="modal-body container-fluid">
-                    <div class="row">
-                        <div class="col-6 col-lg-3 product-image">
-                            <img class="hover-big img-fluid p-1 m-1" src="Images\CAT\Accessories\Bundle_Whisker_Litter-Robot_3_WiFi_Enabled_Automatic_Self-Cleaning_Cat.png">
-                        </div>
-                        <div class="col-6 col-lg-3 product-description">
-                            <h4 class="pt-4">Bundle Whisker Litter-Robot 3 WiFi Enabled Automatic Self-Cleaning Cat Litter</h4>
-                        </div>
-                        <div class="col-5 col-lg-2 product-quantity text-center">
-                            <h4 class="pt-5">
-                            <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
-                                1
-                            <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
-                            </h4>
-                        </div>
-                        <div class="col-7 col-lg-4 product-price">
-                            <h2 class="pt-5 text-end">Php 38,579.00</h2>
-                        </div>
+        <!-- Cart Modal Start  -->
+        <div class="modal" id="cart" >
+            <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
+                <div class="modal-content text-petblue">
+                    <div class="modal-header bg-peach">
+                        <h2>Shopping Cart</h2>
                     </div>
-                    <div class="row bg-beige">
-                        <div class="col-6 col-lg-3 product-image">
-                            <img class="hover-big img-fluid p-1 m-1" src="Images\CAT\Toys\Frisco 61-in Faux Fur Cat Tree & Condo(1).png" alt="Frisco">
-                        </div>
-                        <div class="col-6 col-lg-3 product-description">
-                            <h4 class="pt-4">Frisco 61-in Faux Fur Cat Tree & Condo</h4>
-                        </div>
-                        <div class="col-5 col-lg-2 product-quantity text-center">
-                            <h4 class="pt-5">
-                            <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
-                                1
-                            <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
-                            </h4>
-                        </div>
-                        <div class="col-7 col-lg-4 product-price">
-                            <h2 class="pt-5 text-end">Php 4,654.00</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-lg-3 product-image">
-                            <img class="hover-big img-fluid p-1 m-1" src="Images\CAT\Toys\Edited-Toys\ZEZE_Lovely___Delicate_Forest_Snake_Tease_Wand_Cat_Toy-removebg-preview.png" alt="ZEZE">
-                        </div>
-                        <div class="col-6 col-lg-3 product-description">
-                            <h4 class="pt-4">ZEZE Lovely & Delicate Forest Snake Tease Wand Cat Toy</h4>
-                        </div>
-                        <div class="col-6 col-lg-2 product-quantity text-center">
-                            <h4 class="pt-5">
-                            <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
-                                1
-                            <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
-                            </h4>
-                        </div>
-                        <div class="col-6 col-lg-4 product-price">
-                            <h2 class="pt-5 text-end">Php 1,002.00</h2>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row subtotal">
-                        <div class="col-2 col-lg-6 product-image"></div>
-                        <div class="col-2 col-lg-2 product-price text-end subtotal">
-                            <h4>Subtotal</h4>
-                            <p>3 Items</p>
-                        </div>
-                        <div class="col-8 col-lg-4 product-price text-end">
-                            <h2>Php 44,235.00</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer bg-peach">
-                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button class="btn btn-petblue" data-bs-target="#payment" data-bs-toggle="modal">
-                        Checkout
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Cart Modal End  -->
-    <!-- Payment Modal Start  -->
-    <div class="modal" id="payment" >
-        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
-            <div class="modal-content text-petblue">
-                <div class="modal-header bg-peach">
-                    <h2>Checkout</h2>
-                </div>
-                <div class="modal-body container-fluid">
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-10 bg-beige rounded">
-                            <h3 class="text-center pt-2 pb-2">Address</h3>
-                            <br>
-                            <h4 class="text-start p-2">
-                                11th Floor, W City Center, 7th Ave, Taguig, 1630 Metro Manila
-                            </h4>
-                        </div>
-                        <div class="col-1"></div>
-                    </div>
-                    <!-- break  -->
-                    <div class="row pb-3">
-                        <div class="col-1"></div>
-                        <div class="col-10 rounded">
-                            <h3 class="text-center pt-4">Payment Method</h3>
-                            <br>
-                            <div class="d-grid">
-                                <input type="radio" class="btn-check" name="options" id="option0" autocomplete="off">
-                                <label class="btn btn-outline-petblue m-1" for="option0">
-                                    Credit/Debit Card
-                                    <i class="fa-brands fa-lg fa-cc-amex"></i>
-                                    <i class="fa-brands fa-lg fa-cc-mastercard"></i>
-                                    <i class="fa-brands fa-lg fa-cc-visa"></i>
-                                    <i class="fa-brands fa-lg fa-cc-jcb"></i>
-                                </label>
-                                <!-- break  -->
-                                <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
-                                <label class="btn btn-outline-petblue m-1" for="option3">
-                                    PayPal
-                                    <i class="fa-brands fa-lg fa-paypal"></i>
-                                </label>
-                                <!-- break  -->
-                                <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
-                                <label class="btn btn-outline-petblue m-1" for="option4">
-                                   GCash <img class="icon-hover-petblue" src="Images\Payment Logo\GCash Logo.png" alt="">
-                                </label>
-                                <!-- break  -->
-                                <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off">
-                                <label class="btn btn-outline-petblue m-1" for="option5">
-                                    GrabPay  <img src="Images\Payment Logo\GrabPay Logo.png" alt="">
-                                </label>
-                                <!-- break  -->
-                                <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
-                                <label class="btn btn-outline-petblue m-1" for="option6">
-                                    PayMaya <img src="Images\Payment Logo\PayMaya Logo.png" alt="">
-                                </label>
-                                <!-- break  -->
-                                <input type="radio" class="btn-check" name="options" id="option7" autocomplete="off">
-                                <label class="btn btn-outline-petblue m-1" for="option7">
-                                    Coins.PH <img src="Images\Payment Logo\Coins.PH.ico" alt="">
-                                </label>
+                    <div class="modal-body container-fluid">
+                        <div class="row">
+                            <div class="col-5 col-lg-3 product-image">
+                                <img class="hover-big img-fluid p-1 m-1" src="Images\CAT\Accessories\Bundle_Whisker_Litter-Robot_3_WiFi_Enabled_Automatic_Self-Cleaning_Cat.png">
+                            </div>
+                            <div class="col-7 col-lg-3 product-description">
+                                <h4 class="pt-4">Bundle Whisker Litter-Robot 3 WiFi Enabled Automatic Self-Cleaning Cat Litter</h4>
+                            </div>
+                            <div class="col-5 col-lg-2 product-quantity text-center">
+                                <h4 class="pt-5">
+                                <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
+                                    1
+                                <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
+                                </h4>
+                            </div>
+                            <div class="col-7 col-lg-4 product-price">
+                                <h2 class="pt-5 text-end">Php 38,579.00</h2>
                             </div>
                         </div>
-                        <div class="col-1"></div>
-                    </div>
-                    <!-- break  -->
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-10 bg-beige rounded">
-                            <h3 class="text-center pt-2 pb-2">Checkout Summary</h3>
-                            <br>
-                            <h4 class="text-end p-2">
-                                Php 44,235.00
-                            </h4>
+                        <div class="row bg-beige">
+                            <div class="col-5 col-lg-3 product-image">
+                                <img class="hover-big img-fluid p-1 m-1" src="Images\CAT\Toys\Frisco 61-in Faux Fur Cat Tree & Condo(1).png" alt="Frisco">
+                            </div>
+                            <div class="col-7 col-lg-3 product-description">
+                                <h4 class="pt-4">Frisco 61-in Faux Fur Cat Tree & Condo</h4>
+                            </div>
+                            <div class="col-5 col-lg-2 product-quantity text-center">
+                                <h4 class="pt-5">
+                                <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
+                                    1
+                                <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
+                                </h4>
+                            </div>
+                            <div class="col-7 col-lg-4 product-price">
+                                <h2 class="pt-5 text-end">Php 4,654.00</h2>
+                            </div>
                         </div>
-                        <div class="col-1"></div>
+                        <div class="row">
+                            <div class="col-6 col-lg-3 product-image">
+                                <img class="hover-big img-fluid p-1 m-1" src="Images\CAT\Toys\Edited-Toys\ZEZE_Lovely___Delicate_Forest_Snake_Tease_Wand_Cat_Toy-removebg-preview.png" alt="ZEZE">
+                            </div>
+                            <div class="col-6 col-lg-3 product-description">
+                                <h4 class="pt-4">ZEZE Lovely & Delicate Forest Snake Tease Wand Cat Toy</h4>
+                            </div>
+                            <div class="col-6 col-lg-2 product-quantity text-center">
+                                <h4 class="pt-5">
+                                <i class="fa-solid fa-circle-minus pointer hover-petblue"></i>
+                                    1
+                                <i class="fa-solid fa-circle-plus pointer hover-petblue"></i>
+                                </h4>
+                            </div>
+                            <div class="col-6 col-lg-4 product-price">
+                                <h2 class="pt-5 text-end">Php 1,002.00</h2>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row subtotal">
+                            <div class="col-2 col-lg-6 product-image"></div>
+                            <div class="col-2 col-lg-2 product-price text-end subtotal">
+                                <h4>Subtotal</h4>
+                                <p>3 Items</p>
+                            </div>
+                            <div class="col-8 col-lg-4 product-price text-end">
+                                <h2>Php 44,235.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer bg-peach">
+                        <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                        <button class="btn btn-petblue" data-bs-target="#payment" data-bs-toggle="modal">
+                            Checkout
+                        </button>
                     </div>
                 </div>
-                <div class="modal-footer bg-peach">
-                    <button class="btn btn-petblue" data-bs-target="#cart" data-bs-toggle="modal">
-                        I Forgot Something
-                    </button>
-                    <button class="btn btn-petblue" data-bs-target="#thanks" data-bs-toggle="modal">
-                        Done
-                    </button>
+            </div>
+        </div>
+        <!-- Cart Modal End  -->
+        <!-- Payment Modal Start  -->
+        <div class="modal" id="payment" >
+            <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
+                <div class="modal-content text-petblue">
+                    <div class="modal-header bg-peach">
+                        <h2>Checkout</h2>
+                    </div>
+                    <div class="modal-body container-fluid">
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10 bg-beige rounded">
+                                <h3 class="text-center pt-2 pb-2">Delivery Information</h3>
+                                <br>
+                                <form class="needs-validation">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12 mb-3">
+                                                <label for="delivery-info01">First name</label>
+                                                <input type="text" class="form-control" id="delivery-info01" placeholder="First name" value="" required>
+                                                <div class="valid-tooltip">
+                                                Looks good!
+                                                </div>
+                                                <div class="invalid-tooltip">
+                                                    Please provide your firstname.
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-6 col-12 mb-3">
+                                                <label for="delivery-info02">Last name</label>
+                                                <input type="text" class="form-control" id="delivery-info02" placeholder="Last name" value="" required>
+                                                <div class="valid-tooltip">
+                                                Looks good!
+                                                </div>
+                                                <div class="invalid-tooltip">
+                                                    Please provide your lastname.
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <label for="delivery-info03">Street Address</label>
+                                            <input type="text" class="form-control" id="delivery-info03" placeholder="Street Address" required>
+                                            <div class="invalid-tooltip">
+                                            Please provide your street address.
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mb-3">
+                                            <label for="delivery-info04">Barangay</label>
+                                            <input type="text" class="form-control" id="delivery-info04" placeholder="Barangay" required>
+                                            <div class="invalid-tooltip">
+                                            Please provide your barangay.
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mb-3">
+                                                <label for="delivery-info05">City</label>
+                                                <input type="text" class="form-control" id="delivery-info05" placeholder="City" required>
+                                                <div class="invalid-tooltip">
+                                                Please provide a valid city.
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-6 mb-3">
+                                                <label for="delivery-info04">State</label>
+                                                <input type="text" class="form-control" id="delivery-info06" placeholder="State" required>
+                                                <div class="invalid-tooltip">
+                                                Please provide a valid state.
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-6 mb-3">
+                                                <label for="delivery-info05">Zip</label>
+                                                <input type="number" min="1000" max="9999" class="form-control" id="delivery-info07" placeholder="Zip" required>
+                                                <div class="invalid-tooltip">
+                                                Please provide a valid zip.
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid pb-3">
+                                        <button class="btn btn-petblue" type="submit">Submit Delivery Information</button>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                        <!-- break  -->
+                        <div class="row pb-3">
+                            <div class="col-1"></div>
+                            <div class="col-10 rounded">
+                                <h3 class="text-center pt-4">Payment Method</h3>
+                                <br>
+                                <div class="d-grid">
+                                    <input type="radio" class="btn-check" name="options" id="option0" autocomplete="off">
+                                    <label class="btn btn-outline-petblue m-1" data-bs-toggle="collapse" data-bs-target="#chform" for="option0">
+                                        Credit/Debit Card
+                                        <i class="fa-brands fa-lg fa-cc-amex"></i>
+                                        <i class="fa-brands fa-lg fa-cc-mastercard"></i>
+                                        <i class="fa-brands fa-lg fa-cc-visa"></i>
+                                        <i class="fa-brands fa-lg fa-cc-jcb"></i>
+                                    </label>
+                                    <div class="accordion-item bg-petblue text-white">
+                                        <div id="chform" class="collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="text-start accordion-body rounded p-5">
+                                                <form action="" class="was-validated">
+                                                    <div class="mb-3 mt-3">
+                                                      <label for="cardNumber" class="form-label">Card Number:</label>
+                                                      <input type="number" class="form-control" id="cardNumber" placeholder="Enter Card Number" name="cardNumber"  min="1000000000000000" max="9999999999999999" required>
+                                                      <div class="valid-feedback">Valid.</div>
+                                                      <div class="invalid-feedback">Please fill out this field.</div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                      <label for="cardName" class="form-label">Card Holder Name:</label>
+                                                      <input type="text" class="form-control" id="cardName" placeholder="Enter Card Holder Name" name="cardName" required>
+                                                      <div class="valid-feedback">Valid.</div>
+                                                      <div class="invalid-feedback">Please fill out this field.</div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="ExpiryDate" class="form-label">Expiry Date:</label>
+                                                        <input type="date" class="form-control" id="ExpiryDate" placeholder="Enter Card Expiry Date" name="ExpiryDate" required>
+                                                        <div class="valid-feedback">Valid.</div>
+                                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="cvc" class="form-label">CVC:</label>
+                                                        <input type="number" class="form-control" id="cvc" placeholder="Enter CVC" name="cardName" min="100" max="999" required>
+                                                        <div class="valid-feedback">Valid.</div>
+                                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="cardName" class="form-label">Card Holder Name:</label>
+                                                        <input type="text" class="form-control" id="cardName" placeholder="Enter Cardholder Name" name="cardName" required>
+                                                        <div class="valid-feedback">Valid.</div>
+                                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                                    </div>
+                                                    <div class="form-check mb-3">
+                                                      <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                                                      <label class="form-check-label" for="myCheck">I agree to the terms and services of Wag N' Tail LLC.</label>
+                                                      <div class="valid-feedback">Valid.</div>
+                                                      <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                                    </div>
+                                                    <div class="d-grid">
+                                                        <button type="submit" class="btn btn-beige">Submit</button>
+                                                    </div>
+                                                  </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- break  -->
+                                    <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                                    <label class="btn btn-outline-petblue m-1" for="option3">
+                                        PayPal
+                                        <i class="fa-brands fa-lg fa-paypal"></i>
+                                    </label>
+                                    <!-- break  -->
+                                    <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                                    <label class="btn btn-outline-petblue m-1" for="option4">
+                                       GCash 
+                                    </label>
+                                    <!-- break  -->
+                                    <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off">
+                                    <label class="btn btn-outline-petblue m-1" for="option5">
+                                        GrabPay 
+                                    </label>
+                                    <!-- break  -->
+                                    <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
+                                    <label class="btn btn-outline-petblue m-1" for="option6">
+                                        PayMaya
+                                    </label>
+                                    <!-- break  -->
+                                    <input type="radio" class="btn-check" name="options" id="option7" autocomplete="off">
+                                    <label class="btn btn-outline-petblue m-1" for="option7">
+                                        Coins.PH
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                        <!-- break  -->
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10 bg-beige rounded">
+                                <h3 class="text-center pt-2 pb-2">Checkout Summary</h3>
+                                <br>
+                                <h4 class="text-end p-2">
+                                    Php 44,235.00
+                                </h4>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer bg-peach">
+                        <button class="btn btn-petblue" data-bs-target="#cart" data-bs-toggle="modal">
+                            I Forgot Something
+                        </button>
+                        <button class="btn btn-petblue" data-bs-target="#thanks" data-bs-toggle="modal">
+                            Done
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Payment Modal  End  -->
-    <!-- Thanks Modal Start -->
-    <div class="modal" id="thanks" >
-        <div class="modal-dialog modal-xl modal-dialog-scrollable">
-            <div class="modal-content text-petblue">
-                <div class="modal-header bg-peach">
-                    <h1>You'll get your order soon!</h1>
-                </div>
-                <div class="modal-body container-fluid bg-beige text-center pt-5">
-                    <h3>Thank you for shopping with us!</h3>
-                    <h3>We hope to see you again soon</h3>
-                </div>
-                <div class="modal-footer bg-beige">
-                    <button class="btn btn-petblue" data-bs-dismiss="modal">
-                        Goodbye!
-                    </button>
+        <!-- Payment Modal  End  -->
+        <!-- Thanks Modal Start -->
+        <div class="modal" id="thanks" >
+            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                <div class="modal-content text-petblue">
+                    <div class="modal-header bg-peach">
+                        <h1>You'll get your order soon</h1>
+                    </div>
+                    <div class="modal-body container-fluid bg-beige text-center pt-5">
+                        <h3>Thank you for shopping with us!</h3>
+                        <h3>We hope to see you again soon.</h3>
+                    </div>
+                    <div class="modal-footer bg-beige">
+                        <button class="btn btn-petblue" data-bs-dismiss="modal">
+                            Until next time
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Thanks Modal End  -->
+        <!-- Thanks Modal End  -->
 <!-- Start of Carousel Modals -->
     <div class="modal" id="c1">
         <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
